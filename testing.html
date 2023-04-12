@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visual Search Task</title>
+    <script src="jspsych/dist/jspsych.js"></script>
+    <script src="jspsych/dist/plugin-html-keyboard-response.js"></script>
+    <script src="jspsych/dist/plugin-fullscreen.js"></script>
+    <script src="shuffled_stimuli.js"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="general_instructions.js"></script>
+    <link href="jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+<body></body>
+  <script>
+const CR = ['z', 'm', 'z', 'm', 'z', 'z', 'm', 'z', 'z', 'z', 'z', 'z', 'z', 'm', 'z', 'm', 'm', 'z', 'z', 'm', 'm', 'z', 'm', 'z', 'm', 'm', 'z', 'm', 'z', 'z', 'z', 'z', 'm', 'z', 'm', 'z', 'm', 'm', 'z', 'm', 'm', 'z', 'm', 'z', 'z', 'm', 'm', 'z', 'z', 'm', 'z', 'm', 'm', 'm', 'm', 'm', 'z', 'm', 'm', 'z', 'z', 'm', 'm', 'm', 'z', 'm', 'm', 'm', 'z', 'm', 'm', 'z', 'z', 'z', 'z', 'z', 'm', 'z', 'm', 'm'];
+
+const myArray = [
+  ['cat', 'dog', 'fish', 'bird'],
+  ['car', 'bike', 'train', 'plane'],
+  ['book', 'pen', 'paper', 'pencil'],
+  ['red', 'blue', 'green', 'yellow'],
+  ['happy', 'sad', 'angry', 'excited'],
+];
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+function generateStimulus() {
+  const quadrantSize = window.innerWidth / 4;
+  const centerX = window.innerWidth / 3;
+  const centerY = window.innerHeight / 4;
+  const quadrants = [
+    { x: 0, y: 0 },
+    { x: quadrantSize, y: 0 },
+    { x: 0, y: quadrantSize },
+    { x: quadrantSize, y: quadrantSize },
+  ];
+  const firstRow = myArray.pop();
+  shuffleArray(firstRow);
+  let html = '';
+  for (let i = 0; i < 4; i++) {
+    html += `<div class="word" style="position:absolute; top:${centerY + quadrants[i].y}px; left:${centerX + quadrants[i].x}px;">${firstRow[i]}</div>`;
+  }
+  return html;
+}
+
+const timeline = [];
+
+for (let i = 0; i < 80; i++) {
+  timeline.push({
+    type: 'html-keyboard-response',
+    stimulus: generateStimulus,
+    choices: ['z', 'm'],
+    data: {
+      trial_number: i + 1,
+      correct_response: CR[i],
+    },
+    on_finish: function(data) {
+      data.accuracy = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response) ? 1 : 0;
+    }
+  });
+}
+
+initJsPsych({
+  timeline: timeline
+});
+
+
+</script>
+</html>

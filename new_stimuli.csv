@@ -1,0 +1,61 @@
+﻿Condition Type,Stimuli Combination,Type,stimulus,correct_answer
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"maybe,trrlep,trrlep,trrlep",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"vague,wrflz,wrflz,wrflz",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"chance,hxmwfn,hxmwfn,hxmwfn",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"random,tfgnkc,tfgnkc,tfgnkc",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"unsure,qddkgm,qddkgm,qddkgm",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"perhaps,lcmnprv,lcmnprv,lcmnprv",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"unclear,jhldvfd,jhldvfd,jhldvfd",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"unknown,txvdnbb,txvdnbb,txvdnbb",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",z
+Facilitation Condition Trials,uncertainty word target + non-word distractor,a,"unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",z
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"trrlep,maybe,maybe,maybe",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"wrflz,vague,vague,vague",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"hxmwfn,chance,chance,chance",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"tfgnkc,random,random,random",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"qddkgm,unsure,unsure,unsure",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"lcmnprv,perhaps,perhaps,perhaps",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"jhldvfd,unclear,unclear,unclear",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"txvdnbb,unknown,unknown,unknown",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"cgpfdjfrq,uncertain,uncertain,uncertain",m
+Disengagement Condition Trials,non-word target + uncertainty word distractor,d,"mncbfljdvq,unforeseen,unforeseen,unforeseen",m
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"table,iqnqg,iqnqg,iqnqg",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"clock,pwvqs,pwvqs,pwvqs",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"window,djmrtb,djmrtb,djmrtb",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"kettle,kfftyn,kfftyn,kfftyn",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"mantel,ymrqjz,ymrqjz,ymrqjz",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"picture,pvnxbqy,pvnxbqy,pvnxbqy",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"utensil,smvgxbr,smvgxbr,smvgxbr",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"cabinet,grnlpsp,grnlpsp,grnlpsp",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"appliance,klgwvkzti,klgwvkzti,klgwvkzti",z
+Facilitation Condition Trials,categorized neutral word target + non-word distractor,b,"dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",z
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"iqnqg,table,table,table",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"pwvqs,clock,clock,clock",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"djmrtb,window,window,window",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"kfftyn,kettle,kettle,kettle",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"ymrqjz,mantel,mantel,mantel",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"pvnxbqy,picture,picture,picture",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"smvgxbr,utensil,utensil,utensil",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"grnlpsp,cabinet,cabinet,cabinet",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"klgwvkzti,appliance,appliance,appliance",m
+Disengagement Condition Trials,non-word target + categorised neutral word distractor,e,"ztqtpuoefr,dishwasher,dishwasher,dishwasher",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"gwyqg,jsghp,jsghp,jsghp",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"pglql,mnklu,mnklu,mnklu",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"ihwwvp,xywjry,xywjry,xywjry",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"sbdmcq,qfzmbb,qfzmbb,qfzmbb",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"zjgdys,gwmwql,gwmwql,gwmwql",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"szknnjbt,pxaciuj,pxaciuj,pxaciuj",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"rjuqubbx,jnkwapj,jnkwapj,jnkwapj",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"afjppqyq,grnlpsp,grnlpsp,grnlpsp",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",m
+Facilitation Condition Trials,non-word target + non-word distractor,c,"wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",m
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"upward,colour,colour,colour",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"tower,vivid,vivid,vivid",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"career,market,market,market",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"errand,reflex,reflex,reflex",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"unused,rattle,rattle,rattle",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"instead,forward,forward,forward",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"noodles,unitary,unitary,unitary",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"context,uniform,uniform,uniform",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"unnatural,cardboard,cardboard,cardboard",z
+Disengagement Condition Trials,uncategorized neutral word target + uncategorized neutral distractor,f,"skyscraper,unofficial,unofficial,unofficial",z

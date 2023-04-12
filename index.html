@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visual Search Task</title>
+    <script src="jspsych/dist/jspsych.js"></script>
+    <script src="jspsych/dist/plugin-html-keyboard-response.js"></script>
+    <script src="jspsych/dist/plugin-fullscreen.js"></script>
+    <script src="jspsych/dist/plugin-survey-likert.js"></script>
+    <script src="jspsych/dist/plugin-html-button-response.js"></script>
+    <script src="jspsych/dist/plugin-webgazer-calibrate.js"></script>
+    <script src="jspsych/dist/plugin-webgazer-init-camera.js"></script>
+    <script src="jspsych/dist/plugin-webgazer-validate.js"></script>
+    <script src="jspsych/dist/extension-webgazer.js"></script>
+    <script src="shuffled_stimuli.js"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="general_instructions.js"></script>
+    <script src="webgazer.js"></script>
+    <script src="IUS.js"></script>
+    <script src="STAI-T.js"></script>
+    <link href="jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+<body></body>
+  <script>
+
+var enter_fullscreen = {
+      type: jsPsychFullscreen,
+      fullscreen_mode: true
+    };
+
+    var exit_fullscreen = {
+      type: jsPsychFullscreen,
+      fullscreen_mode: false,
+      delay_after: 0
+};
+
+
+    var init_camera_trial = {
+        type: jsPsychWebgazerInitCamera
+    };
+
+    var goodbye = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "You have reached the end of the experiment. You can now close this webpage."
+    }
+    
+
+    var camera_instructions = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `
+          <p>In order to participate you must allow the experiment to use your camera.</p>
+          <p>You will be prompted to do this on the next screen.</p>
+          <p>If you do not wish to allow use of your camera, you cannot participate in this experiment.<p>
+          <p>It may take up to 30 seconds for the camera to initialize after you give permission.</p>
+        `,
+        choices: ['Got it'],
+      }
+
+      var init_camera = {
+        type: jsPsychWebgazerInitCamera
+      }
+
+      var calibration_instructions = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `
+          <p>Now you'll calibrate the eye tracking, so that the software can use the image of your eyes to predict where you are looking.</p>
+          <p>You'll see a series of dots appear on the screen. Look at each dot and click on it.</p>
+        `,
+        choices: ['Got it'],
+      }
+
+      var calibration = {
+        type: jsPsychWebgazerCalibrate,
+        calibration_points: [
+          [25,25],[75,25],[50,50],[25,75],[75,75]
+        ],
+        repetitions_per_point: 2,
+        randomize_calibration_order: true
+      }
+
+      var validation_instructions = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `
+          <p>Now we'll measure the accuracy of the calibration.</p>
+          <p>Look at each dot as it appears on the screen.</p>
+          <p style="font-weight: bold;">You do not need to click on the dots this time.</p>
+        `,
+        choices: ['Got it'],
+        post_trial_gap: 1000
+      }
+
+      var validation = {
+        type: jsPsychWebgazerValidate,
+        validation_points: [
+          [25,25],[75,25],[50,50],[25,75],[75,75]
+        ],
+        roi_radius: 200,
+        time_to_saccade: 1000,
+        validation_duration: 2000,
+        data: {
+          task: 'validate'
+        }
+      }
+
+      var recalibrate_instructions = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `
+          <p>The accuracy of the calibration is a little lower than we'd like.</p>
+          <p>Let's try calibrating one more time.</p>
+          <p>On the next screen, look at the dots and click on them.<p>
+        `,
+        choices: ['OK'],
+      }
+
+      var recalibrate = {
+        timeline: [recalibrate_instructions, calibration, validation_instructions, validation],
+        conditional_function: function(){
+          var validation_data = jsPsych.data.get().filter({task: 'validate'}).values()[0];
+          return validation_data.percent_in_roi.some(function(x){
+            var minimum_percent_acceptable = 50;
+            return x < minimum_percent_acceptable;
+          });
+        },
+        data: {
+          phase: 'recalibration'
+        }
+      }
+
+      var calibration_done = {
+        type: jsPsychHtmlButtonResponse,
+        stimulus: `
+          <p>Great, we're done with calibration!</p>
+        `,
+        choices: ['OK']
+      }
+
+
+  // Load JS file
+  $.getJSON('shuffled_stimuli.js', function(data) {
+  
+  // Get the data from the JS file
+  const items = data.items;
+  
+  // Split the comma-separated string in one of the columns
+  items.forEach(item => {
+    item.stimuli = item.stimuli.split(',');
+  });
+});
+  
+  // Convert JS to array
+  var names = []
+  for(x in shuffled_stimuli)
+  names.push(shuffled_stimuli[x].stimuli);
+
+  var CR = []
+  for(x in shuffled_stimuli)
+  CR.push(shuffled_stimuli[x].correct_answer)
+
+  // split the comma-separated words
+  myArray = names.map(str => str.split(","));
+ 
+
+  // define a function to shuffle the array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+  /* create timeline */
+  var timeline = [];
+
+  var trialcorrect=[];
+
+  /* start the experiment */
+  var jsPsych = initJsPsych({
+});
+
+  // Define a jsPsych trial to display the words
+  var wordDisplayTrial = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function() {
+      const quadrantSize = window.innerWidth / 4;
+      const centerX = window.innerWidth / 3;
+      const centerY = window.innerHeight / 4;
+      const quadrants = [
+        { x: 0, y: 0 },
+        { x: quadrantSize, y: 0 },
+        { x: 0, y: quadrantSize },
+        { x: quadrantSize, y: quadrantSize },
+      ];
+      const firstRow = myArray.shift();
+      shuffleArray(firstRow);
+
+      let html = '';
+      for (let i = 0; i < 4; i++) {
+        html += `<div class="word" style="position:absolute; top:${centerY + quadrants[i].y}px; left:${centerX + quadrants[i].x}px;">${firstRow[i]}</div>`;
+      }
+      return html;
+    },
+    choices: ['z', 'm'],
+    trial_duration: 3000,
+    data:{
+            task: 'VST',
+            correct_response: function() {
+      return CR.pop();
+    },
+        },
+        on_finish: function(data) {
+          correct_response = CR.shift();
+          data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
+        }
+    };
+
+var fixation = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: '<div style="font-size:60px;">+</div>',
+  choices: "NO_KEYS",
+  trial_duration: 1000,
+};
+
+var outcome = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: function (data) {
+            if (jsPsych.data.get().last(1).trials[0].correct == true) {
+                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">CORRECT</p>'
+            } else if (jsPsych.data.get().last(1).trials[0].response == null) {
+                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">MISSED</p>'
+            }
+            else {
+                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">INCORRECT</p>'
+            }
+        },
+        trial_duration: 1000,
+        data: {
+            task: "feedback"
+        }
+    };
+
+    /* create the end screen */
+    var end = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `<p>You're done! A .csv file containing your data should be automatically downloading right now.
+        Check your default downloads location to find it. Once you've found it you can close the experiment.</p>`,
+        on_load: function () {
+          jsPsych.data.get().localSave('csv','VST-data.csv');
+        }
+    };
+
+// Define a jsPsych timeline and add the word display trial
+var test_procedure = {
+  timeline: [fixation, wordDisplayTrial, outcome],
+  repetitions: 2,
+          data: {
+            phase: 'practice',
+            block: 'practice'
+        },
+}
+
+timeline.push(general_instructions);
+timeline.push(enter_fullscreen);
+
+// // EYE TRACKER
+// timeline.push(camera_instructions);
+// timeline.push(init_camera);
+// timeline.push(calibration_instructions);
+// timeline.push(calibration);
+// timeline.push(validation_instructions);
+// timeline.push(validation);
+// timeline.push(recalibrate);
+// timeline.push(calibration_done);
+
+timeline.push(test_procedure);
+timeline.push(IUS_survey);
+timeline.push(STAIT_survey);
+timeline.push(end);
+
+
+jsPsych.run(timeline);
+
+</script>
+</html>
+

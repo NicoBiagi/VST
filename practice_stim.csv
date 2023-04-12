@@ -1,0 +1,5 @@
+﻿type,word1,word2,word3,target,correct_answer
+neutral,zxcv,zxcv,zxcv,test,m
+neutral,test,test,test,zxcv,z
+neutral,test,test,test,practice,m
+neutral,zxcv,zxcv,zxcv,asdf,z
