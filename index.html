@@ -183,7 +183,7 @@ function shuffleArray(array) {
     stimulus: function() {
       const quadrantSize = window.innerWidth / 4;
       const centerX = window.innerWidth / 3;
-      const centerY = window.innerHeight / 4;
+      const centerY = window.innerHeight / 3;
       const quadrants = [
         { x: 0, y: 0 },
         { x: quadrantSize, y: 0 },
@@ -251,10 +251,18 @@ var outcome = {
 // Define a jsPsych timeline and add the word display trial
 var test_procedure = {
   timeline: [fixation, wordDisplayTrial, outcome],
-  repetitions: 2,
+  repetitions: 10, //shuffled_stimuli.length,
           data: {
-            phase: 'practice',
-            block: 'practice'
+            phase: 'test'
+        },
+}
+
+// Define a jsPsych timeline and add the word display trial
+var practice = {
+  timeline: [fixation, wordDisplayTrial, outcome],
+  repetitions: 10, //shuffled_stimuli.length,
+          data: {
+            phase: 'practice'
         },
 }
 
@@ -272,8 +280,8 @@ timeline.push(enter_fullscreen);
 // timeline.push(calibration_done);
 
 timeline.push(test_procedure);
-timeline.push(IUS_survey);
-timeline.push(STAIT_survey);
+//timeline.push(IUS_survey);
+//timeline.push(STAIT_survey);
 timeline.push(end);
 
 

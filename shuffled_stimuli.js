@@ -1,9602 +1,1442 @@
 var shuffled_stimuli = [
   {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
     "index": 17,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
+    "target": "txvdnbb",
+    "distractor1": "unknown",
+    "distractor2": "unknown",
+    "distractor3": "unknown",
+    "correct_answer": "z",
+    "stimuli": "txvdnbb,unknown,unknown,unknown"
   },
   {
     "index": 40,
+    "Condition Index": "c",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
+    "target": "gwyqg",
+    "distractor1": "jsghp",
+    "distractor2": "jsghp",
+    "distractor3": "jsghp",
+    "correct_answer": "z",
+    "stimuli": "gwyqg,jsghp,jsghp,jsghp"
   },
   {
     "index": 11,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
+    "target": "wrflz",
+    "distractor1": "vague",
+    "distractor2": "vague",
+    "distractor3": "vague",
+    "correct_answer": "z",
+    "stimuli": "wrflz,vague,vague,vague"
   },
   {
     "index": 26,
+    "Condition Index": "b",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
+    "target": "utensil",
+    "distractor1": "smvgxbr",
+    "distractor2": "smvgxbr",
+    "distractor3": "smvgxbr",
+    "correct_answer": "m",
+    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr"
   },
   {
     "index": 56,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
+    "target": "noodles",
+    "distractor1": "unitary",
+    "distractor2": "unitary",
+    "distractor3": "unitary",
+    "correct_answer": "m",
+    "stimuli": "noodles,unitary,unitary,unitary"
   },
   {
     "index": 44,
+    "Condition Index": "c",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
+    "target": "zjgdys",
+    "distractor1": "gwmwql",
+    "distractor2": "gwmwql",
+    "distractor3": "gwmwql",
+    "correct_answer": "z",
+    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql"
   },
   {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
+    "index": 18,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
+    "target": "cgpfdjfrq",
+    "distractor1": "uncertain",
+    "distractor2": "uncertain",
+    "distractor3": "uncertain",
+    "correct_answer": "z",
+    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain"
   },
   {
-    "index": 33,
+    "index": 23,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "kettle",
+    "distractor1": "kfftyn",
+    "distractor2": "kfftyn",
+    "distractor3": "kfftyn",
+    "correct_answer": "m",
+    "stimuli": "kettle,kfftyn,kfftyn,kfftyn"
+  },
+  {
+    "index": 36,
+    "Condition Index": "e",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
+    "target": "smvgxbr",
+    "distractor1": "utensil",
+    "distractor2": "utensil",
+    "distractor3": "utensil",
+    "correct_answer": "z",
+    "stimuli": "smvgxbr,utensil,utensil,utensil"
   },
   {
     "index": 35,
+    "Condition Index": "e",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
+    "target": "pvnxbqy",
+    "distractor1": "picture",
+    "distractor2": "picture",
+    "distractor3": "picture",
+    "correct_answer": "z",
+    "stimuli": "pvnxbqy,picture,picture,picture"
   },
   {
-    "index": 29,
+    "index": 43,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "sbdmcq",
+    "distractor1": "qfzmbb",
+    "distractor2": "qfzmbb",
+    "distractor3": "qfzmbb",
+    "correct_answer": "z",
+    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb"
+  },
+  {
+    "index": 48,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "sxfghqlxc",
+    "distractor1": "bjxdblfvd",
+    "distractor2": "bjxdblfvd",
+    "distractor3": "bjxdblfvd",
+    "correct_answer": "z",
+    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd"
+  },
+  {
+    "index": 47,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "afjppqyq",
+    "distractor1": "grnlpsp",
+    "distractor2": "grnlpsp",
+    "distractor3": "grnlpsp",
+    "correct_answer": "z",
+    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp"
+  },
+  {
+    "index": 54,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "unused",
+    "distractor1": "rattle",
+    "distractor2": "rattle",
+    "distractor3": "rattle",
+    "correct_answer": "m",
+    "stimuli": "unused,rattle,rattle,rattle"
+  },
+  {
+    "index": 33,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "kfftyn",
+    "distractor1": "kettle",
+    "distractor2": "kettle",
+    "distractor3": "kettle",
+    "correct_answer": "z",
+    "stimuli": "kfftyn,kettle,kettle,kettle"
+  },
+  {
+    "index": 45,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "szknnjbt",
+    "distractor1": "pxaciuj",
+    "distractor2": "pxaciuj",
+    "distractor3": "pxaciuj",
+    "correct_answer": "z",
+    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj"
+  },
+  {
+    "index": 25,
+    "Condition Index": "b",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
+    "target": "picture",
+    "distractor1": "pvnxbqy",
+    "distractor2": "pvnxbqy",
+    "distractor3": "pvnxbqy",
+    "correct_answer": "m",
+    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy"
+  },
+  {
+    "index": 10,
+    "Condition Index": "d",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "trrlep",
+    "distractor1": "maybe",
+    "distractor2": "maybe",
+    "distractor3": "maybe",
+    "correct_answer": "z",
+    "stimuli": "trrlep,maybe,maybe,maybe"
+  },
+  {
+    "index": 56,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "noodles",
+    "distractor1": "unitary",
+    "distractor2": "unitary",
+    "distractor3": "unitary",
+    "correct_answer": "m",
+    "stimuli": "noodles,unitary,unitary,unitary"
+  },
+  {
+    "index": 9,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "unforeseen",
+    "distractor1": "mncbfljdvq",
+    "distractor2": "mncbfljdvq",
+    "distractor3": "mncbfljdvq",
+    "correct_answer": "m",
+    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq"
+  },
+  {
+    "index": 24,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "mantel",
+    "distractor1": "ymrqjz",
+    "distractor2": "ymrqjz",
+    "distractor3": "ymrqjz",
+    "correct_answer": "m",
+    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz"
+  },
+  {
+    "index": 6,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "unclear",
+    "distractor1": "jhldvfd",
+    "distractor2": "jhldvfd",
+    "distractor3": "jhldvfd",
+    "correct_answer": "m",
+    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd"
+  },
+  {
+    "index": 38,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "klgwvkzti",
+    "distractor1": "appliance",
+    "distractor2": "appliance",
+    "distractor3": "appliance",
+    "correct_answer": "z",
+    "stimuli": "klgwvkzti,appliance,appliance,appliance"
+  },
+  {
+    "index": 30,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "iqnqg",
+    "distractor1": "table",
+    "distractor2": "table",
+    "distractor3": "table",
+    "correct_answer": "z",
+    "stimuli": "iqnqg,table,table,table"
+  },
+  {
+    "index": 7,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "unknown",
+    "distractor1": "txvdnbb",
+    "distractor2": "txvdnbb",
+    "distractor3": "txvdnbb",
+    "correct_answer": "m",
+    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb"
+  },
+  {
+    "index": 13,
+    "Condition Index": "d",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "tfgnkc",
+    "distractor1": "random",
+    "distractor2": "random",
+    "distractor3": "random",
+    "correct_answer": "z",
+    "stimuli": "tfgnkc,random,random,random"
+  },
+  {
+    "index": 42,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "ihwwvp",
+    "distractor1": "xywjry",
+    "distractor2": "xywjry",
+    "distractor3": "xywjry",
+    "correct_answer": "z",
+    "stimuli": "ihwwvp,xywjry,xywjry,xywjry"
+  },
+  {
+    "index": 22,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "window",
+    "distractor1": "djmrtb",
+    "distractor2": "djmrtb",
+    "distractor3": "djmrtb",
+    "correct_answer": "m",
+    "stimuli": "window,djmrtb,djmrtb,djmrtb"
+  },
+  {
+    "index": 2,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "chance",
+    "distractor1": "hxmwfn",
+    "distractor2": "hxmwfn",
+    "distractor3": "hxmwfn",
+    "correct_answer": "m",
+    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn"
+  },
+  {
+    "index": 35,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "pvnxbqy",
+    "distractor1": "picture",
+    "distractor2": "picture",
+    "distractor3": "picture",
+    "correct_answer": "z",
+    "stimuli": "pvnxbqy,picture,picture,picture"
+  },
+  {
+    "index": 3,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "random",
+    "distractor1": "tfgnkc",
+    "distractor2": "tfgnkc",
+    "distractor3": "tfgnkc",
+    "correct_answer": "m",
+    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc"
+  },
+  {
+    "index": 33,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "kfftyn",
+    "distractor1": "kettle",
+    "distractor2": "kettle",
+    "distractor3": "kettle",
+    "correct_answer": "z",
+    "stimuli": "kfftyn,kettle,kettle,kettle"
+  },
+  {
+    "index": 31,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "pwvqs",
+    "distractor1": "clock",
+    "distractor2": "clock",
+    "distractor3": "clock",
+    "correct_answer": "z",
+    "stimuli": "pwvqs,clock,clock,clock"
+  },
+  {
+    "index": 41,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "pglql",
+    "distractor1": "mnklu",
+    "distractor2": "mnklu",
+    "distractor3": "mnklu",
+    "correct_answer": "z",
+    "stimuli": "pglql,mnklu,mnklu,mnklu"
+  },
+  {
+    "index": 14,
+    "Condition Index": "d",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "qddkgm",
+    "distractor1": "unsure",
+    "distractor2": "unsure",
+    "distractor3": "unsure",
+    "correct_answer": "z",
+    "stimuli": "qddkgm,unsure,unsure,unsure"
+  },
+  {
+    "index": 50,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "upward",
+    "distractor1": "colour",
+    "distractor2": "colour",
+    "distractor3": "colour",
+    "correct_answer": "m",
+    "stimuli": "upward,colour,colour,colour"
+  },
+  {
+    "index": 27,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "cabinet",
+    "distractor1": "grnlpsp",
+    "distractor2": "grnlpsp",
+    "distractor3": "grnlpsp",
+    "correct_answer": "m",
+    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp"
+  },
+  {
+    "index": 22,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "window",
+    "distractor1": "djmrtb",
+    "distractor2": "djmrtb",
+    "distractor3": "djmrtb",
+    "correct_answer": "m",
+    "stimuli": "window,djmrtb,djmrtb,djmrtb"
+  },
+  {
+    "index": 45,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "szknnjbt",
+    "distractor1": "pxaciuj",
+    "distractor2": "pxaciuj",
+    "distractor3": "pxaciuj",
+    "correct_answer": "z",
+    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj"
   },
   {
     "index": 34,
+    "Condition Index": "e",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
+    "target": "ymrqjz",
+    "distractor1": "mantel",
+    "distractor2": "mantel",
+    "distractor3": "mantel",
+    "correct_answer": "z",
+    "stimuli": "ymrqjz,mantel,mantel,mantel"
   },
   {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
+    "index": 20,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "table",
+    "distractor1": "iqnqg",
+    "distractor2": "iqnqg",
+    "distractor3": "iqnqg",
+    "correct_answer": "m",
+    "stimuli": "table,iqnqg,iqnqg,iqnqg"
   },
   {
-    "index": 12,
+    "index": 30,
+    "Condition Index": "e",
     "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "iqnqg",
+    "distractor1": "table",
+    "distractor2": "table",
+    "distractor3": "table",
+    "correct_answer": "z",
+    "stimuli": "iqnqg,table,table,table"
+  },
+  {
+    "index": 8,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "uncertain",
+    "distractor1": "cgpfdjfrq",
+    "distractor2": "cgpfdjfrq",
+    "distractor3": "cgpfdjfrq",
+    "correct_answer": "m",
+    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq"
+  },
+  {
+    "index": 37,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "grnlpsp",
+    "distractor1": "cabinet",
+    "distractor2": "cabinet",
+    "distractor3": "cabinet",
+    "correct_answer": "z",
+    "stimuli": "grnlpsp,cabinet,cabinet,cabinet"
+  },
+  {
+    "index": 46,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "rjuqubbx",
+    "distractor1": "jnkwapj",
+    "distractor2": "jnkwapj",
+    "distractor3": "jnkwapj",
+    "correct_answer": "z",
+    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj"
+  },
+  {
+    "index": 26,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "utensil",
+    "distractor1": "smvgxbr",
+    "distractor2": "smvgxbr",
+    "distractor3": "smvgxbr",
+    "correct_answer": "m",
+    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr"
+  },
+  {
+    "index": 52,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "career",
+    "distractor1": "market",
+    "distractor2": "market",
+    "distractor3": "market",
+    "correct_answer": "m",
+    "stimuli": "career,market,market,market"
+  },
+  {
+    "index": 36,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "smvgxbr",
+    "distractor1": "utensil",
+    "distractor2": "utensil",
+    "distractor3": "utensil",
+    "correct_answer": "z",
+    "stimuli": "smvgxbr,utensil,utensil,utensil"
+  },
+  {
+    "index": 55,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "instead",
+    "distractor1": "forward",
+    "distractor2": "forward",
+    "distractor3": "forward",
+    "correct_answer": "m",
+    "stimuli": "instead,forward,forward,forward"
+  },
+  {
+    "index": 47,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "afjppqyq",
+    "distractor1": "grnlpsp",
+    "distractor2": "grnlpsp",
+    "distractor3": "grnlpsp",
+    "correct_answer": "z",
+    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp"
+  },
+  {
+    "index": 39,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "ztqtpuoefr",
+    "distractor1": "dishwasher",
+    "distractor2": "dishwasher",
+    "distractor3": "dishwasher",
+    "correct_answer": "z",
+    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher"
+  },
+  {
+    "index": 28,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "appliance",
+    "distractor1": "klgwvkzti",
+    "distractor2": "klgwvkzti",
+    "distractor3": "klgwvkzti",
+    "correct_answer": "m",
+    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti"
+  },
+  {
+    "index": 52,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "career",
+    "distractor1": "market",
+    "distractor2": "market",
+    "distractor3": "market",
+    "correct_answer": "m",
+    "stimuli": "career,market,market,market"
   },
   {
     "index": 15,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
+    "target": "lcmnprv",
+    "distractor1": "perhaps",
+    "distractor2": "perhaps",
+    "distractor3": "perhaps",
+    "correct_answer": "z",
+    "stimuli": "lcmnprv,perhaps,perhaps,perhaps"
   },
   {
     "index": 19,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
+    "target": "mncbfljdvq",
+    "distractor1": "unforeseen",
+    "distractor2": "unforeseen",
+    "distractor3": "unforeseen",
+    "correct_answer": "z",
+    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen"
   },
   {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
+    "index": 13,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "tfgnkc",
+    "distractor1": "random",
+    "distractor2": "random",
+    "distractor3": "random",
+    "correct_answer": "z",
+    "stimuli": "tfgnkc,random,random,random"
   },
   {
     "index": 4,
+    "Condition Index": "a",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
+    "target": "unsure",
+    "distractor1": "qddkgm",
+    "distractor2": "qddkgm",
+    "distractor3": "qddkgm",
+    "correct_answer": "m",
+    "stimuli": "unsure,qddkgm,qddkgm,qddkgm"
   },
   {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
+    "index": 29,
+    "Condition Index": "b",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
+    "target": "dishwasher",
+    "distractor1": "ztqtpuoefr",
+    "distractor2": "ztqtpuoefr",
+    "distractor3": "ztqtpuoefr",
+    "correct_answer": "m",
+    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr"
   },
   {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
+    "index": 58,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
+    "target": "unnatural",
+    "distractor1": "cardboard",
+    "distractor2": "cardboard",
+    "distractor3": "cardboard",
+    "correct_answer": "m",
+    "stimuli": "unnatural,cardboard,cardboard,cardboard"
   },
   {
     "index": 7,
+    "Condition Index": "a",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
+    "target": "unknown",
+    "distractor1": "txvdnbb",
+    "distractor2": "txvdnbb",
+    "distractor3": "txvdnbb",
+    "correct_answer": "m",
+    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb"
   },
   {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
+    "index": 0,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "maybe",
+    "distractor1": "trrlep",
+    "distractor2": "trrlep",
+    "distractor3": "trrlep",
+    "correct_answer": "m",
+    "stimuli": "maybe,trrlep,trrlep,trrlep"
   },
   {
-    "index": 28,
+    "index": 2,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "chance",
+    "distractor1": "hxmwfn",
+    "distractor2": "hxmwfn",
+    "distractor3": "hxmwfn",
+    "correct_answer": "m",
+    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn"
+  },
+  {
+    "index": 27,
+    "Condition Index": "b",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
+    "target": "cabinet",
+    "distractor1": "grnlpsp",
+    "distractor2": "grnlpsp",
+    "distractor3": "grnlpsp",
+    "correct_answer": "m",
+    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp"
   },
   {
-    "index": 40,
+    "index": 49,
+    "Condition Index": "c",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
+    "target": "wypqdmmxnj",
+    "distractor1": "idccpkmmvc",
+    "distractor2": "idccpkmmvc",
+    "distractor3": "idccpkmmvc",
+    "correct_answer": "z",
+    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc"
+  },
+  {
+    "index": 23,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "kettle",
+    "distractor1": "kfftyn",
+    "distractor2": "kfftyn",
+    "distractor3": "kfftyn",
+    "correct_answer": "m",
+    "stimuli": "kettle,kfftyn,kfftyn,kfftyn"
+  },
+  {
+    "index": 6,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "unclear",
+    "distractor1": "jhldvfd",
+    "distractor2": "jhldvfd",
+    "distractor3": "jhldvfd",
+    "correct_answer": "m",
+    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd"
+  },
+  {
+    "index": 59,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "skyscraper",
+    "distractor1": "unofficial",
+    "distractor2": "unofficial",
+    "distractor3": "unofficial",
+    "correct_answer": "m",
+    "stimuli": "skyscraper,unofficial,unofficial,unofficial"
+  },
+  {
+    "index": 25,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "picture",
+    "distractor1": "pvnxbqy",
+    "distractor2": "pvnxbqy",
+    "distractor3": "pvnxbqy",
+    "correct_answer": "m",
+    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy"
   },
   {
     "index": 11,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
+    "target": "wrflz",
+    "distractor1": "vague",
+    "distractor2": "vague",
+    "distractor3": "vague",
+    "correct_answer": "z",
+    "stimuli": "wrflz,vague,vague,vague"
   },
   {
     "index": 41,
+    "Condition Index": "c",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
+    "target": "pglql",
+    "distractor1": "mnklu",
+    "distractor2": "mnklu",
+    "distractor3": "mnklu",
+    "correct_answer": "z",
+    "stimuli": "pglql,mnklu,mnklu,mnklu"
   },
   {
     "index": 57,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
+    "target": "context",
+    "distractor1": "uniform",
+    "distractor2": "uniform",
+    "distractor3": "uniform",
+    "correct_answer": "m",
+    "stimuli": "context,uniform,uniform,uniform"
   },
   {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
+    "index": 53,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "errand",
+    "distractor1": "reflex",
+    "distractor2": "reflex",
+    "distractor3": "reflex",
+    "correct_answer": "m",
+    "stimuli": "errand,reflex,reflex,reflex"
   },
   {
     "index": 17,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
+    "target": "txvdnbb",
+    "distractor1": "unknown",
+    "distractor2": "unknown",
+    "distractor3": "unknown",
+    "correct_answer": "z",
+    "stimuli": "txvdnbb,unknown,unknown,unknown"
+  },
+  {
+    "index": 21,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "clock",
+    "distractor1": "pwvqs",
+    "distractor2": "pwvqs",
+    "distractor3": "pwvqs",
+    "correct_answer": "m",
+    "stimuli": "clock,pwvqs,pwvqs,pwvqs"
   },
   {
     "index": 5,
+    "Condition Index": "a",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
+    "target": "perhaps",
+    "distractor1": "lcmnprv",
+    "distractor2": "lcmnprv",
+    "distractor3": "lcmnprv",
+    "correct_answer": "m",
+    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv"
   },
   {
     "index": 12,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
+    "target": "hxmwfn",
+    "distractor1": "chance",
+    "distractor2": "chance",
+    "distractor3": "chance",
+    "correct_answer": "z",
+    "stimuli": "hxmwfn,chance,chance,chance"
   },
   {
     "index": 44,
+    "Condition Index": "c",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
+    "target": "zjgdys",
+    "distractor1": "gwmwql",
+    "distractor2": "gwmwql",
+    "distractor3": "gwmwql",
+    "correct_answer": "z",
+    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql"
   },
   {
     "index": 55,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
+    "target": "instead",
+    "distractor1": "forward",
+    "distractor2": "forward",
+    "distractor3": "forward",
+    "correct_answer": "m",
+    "stimuli": "instead,forward,forward,forward"
   },
   {
     "index": 39,
+    "Condition Index": "e",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
+    "target": "ztqtpuoefr",
+    "distractor1": "dishwasher",
+    "distractor2": "dishwasher",
+    "distractor3": "dishwasher",
+    "correct_answer": "z",
+    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher"
   },
   {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
+    "index": 18,
+    "Condition Index": "d",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "cgpfdjfrq",
+    "distractor1": "uncertain",
+    "distractor2": "uncertain",
+    "distractor3": "uncertain",
+    "correct_answer": "z",
+    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain"
   },
   {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
+    "index": 51,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
+    "target": "tower",
+    "distractor1": "vivid",
+    "distractor2": "vivid",
+    "distractor3": "vivid",
+    "correct_answer": "m",
+    "stimuli": "tower,vivid,vivid,vivid"
   },
   {
     "index": 4,
+    "Condition Index": "a",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
+    "target": "unsure",
+    "distractor1": "qddkgm",
+    "distractor2": "qddkgm",
+    "distractor3": "qddkgm",
+    "correct_answer": "m",
+    "stimuli": "unsure,qddkgm,qddkgm,qddkgm"
   },
   {
     "index": 1,
+    "Condition Index": "a",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
+    "target": "vague",
+    "distractor1": "wrflz",
+    "distractor2": "wrflz",
+    "distractor3": "wrflz",
+    "correct_answer": "m",
+    "stimuli": "vague,wrflz,wrflz,wrflz"
   },
   {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 54,
+    "index": 53,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
+    "target": "errand",
+    "distractor1": "reflex",
+    "distractor2": "reflex",
+    "distractor3": "reflex",
+    "correct_answer": "m",
+    "stimuli": "errand,reflex,reflex,reflex"
   },
   {
     "index": 10,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
+    "target": "trrlep",
+    "distractor1": "maybe",
+    "distractor2": "maybe",
+    "distractor3": "maybe",
+    "correct_answer": "z",
+    "stimuli": "trrlep,maybe,maybe,maybe"
+  },
+  {
+    "index": 48,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "sxfghqlxc",
+    "distractor1": "bjxdblfvd",
+    "distractor2": "bjxdblfvd",
+    "distractor3": "bjxdblfvd",
+    "correct_answer": "z",
+    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd"
+  },
+  {
+    "index": 24,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "mantel",
+    "distractor1": "ymrqjz",
+    "distractor2": "ymrqjz",
+    "distractor3": "ymrqjz",
+    "correct_answer": "m",
+    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz"
+  },
+  {
+    "index": 28,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "appliance",
+    "distractor1": "klgwvkzti",
+    "distractor2": "klgwvkzti",
+    "distractor3": "klgwvkzti",
+    "correct_answer": "m",
+    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti"
+  },
+  {
+    "index": 29,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "dishwasher",
+    "distractor1": "ztqtpuoefr",
+    "distractor2": "ztqtpuoefr",
+    "distractor3": "ztqtpuoefr",
+    "correct_answer": "m",
+    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr"
+  },
+  {
+    "index": 32,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "djmrtb",
+    "distractor1": "window",
+    "distractor2": "window",
+    "distractor3": "window",
+    "correct_answer": "z",
+    "stimuli": "djmrtb,window,window,window"
+  },
+  {
+    "index": 16,
+    "Condition Index": "d",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "jhldvfd",
+    "distractor1": "unclear",
+    "distractor2": "unclear",
+    "distractor3": "unclear",
+    "correct_answer": "z",
+    "stimuli": "jhldvfd,unclear,unclear,unclear"
+  },
+  {
+    "index": 59,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "skyscraper",
+    "distractor1": "unofficial",
+    "distractor2": "unofficial",
+    "distractor3": "unofficial",
+    "correct_answer": "m",
+    "stimuli": "skyscraper,unofficial,unofficial,unofficial"
+  },
+  {
+    "index": 20,
+    "Condition Index": "b",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "categorized neutral word target + non-word distractor",
+    "target": "table",
+    "distractor1": "iqnqg",
+    "distractor2": "iqnqg",
+    "distractor3": "iqnqg",
+    "correct_answer": "m",
+    "stimuli": "table,iqnqg,iqnqg,iqnqg"
+  },
+  {
+    "index": 8,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "uncertain",
+    "distractor1": "cgpfdjfrq",
+    "distractor2": "cgpfdjfrq",
+    "distractor3": "cgpfdjfrq",
+    "correct_answer": "m",
+    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq"
+  },
+  {
+    "index": 38,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "klgwvkzti",
+    "distractor1": "appliance",
+    "distractor2": "appliance",
+    "distractor3": "appliance",
+    "correct_answer": "z",
+    "stimuli": "klgwvkzti,appliance,appliance,appliance"
   },
   {
     "index": 19,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
+    "target": "mncbfljdvq",
+    "distractor1": "unforeseen",
+    "distractor2": "unforeseen",
+    "distractor3": "unforeseen",
+    "correct_answer": "z",
+    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen"
   },
   {
     "index": 57,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
+    "target": "context",
+    "distractor1": "uniform",
+    "distractor2": "uniform",
+    "distractor3": "uniform",
+    "correct_answer": "m",
+    "stimuli": "context,uniform,uniform,uniform"
   },
   {
     "index": 21,
+    "Condition Index": "b",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
+    "target": "clock",
+    "distractor1": "pwvqs",
+    "distractor2": "pwvqs",
+    "distractor3": "pwvqs",
+    "correct_answer": "m",
+    "stimuli": "clock,pwvqs,pwvqs,pwvqs"
+  },
+  {
+    "index": 50,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "upward",
+    "distractor1": "colour",
+    "distractor2": "colour",
+    "distractor3": "colour",
+    "correct_answer": "m",
+    "stimuli": "upward,colour,colour,colour"
+  },
+  {
+    "index": 3,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "random",
+    "distractor1": "tfgnkc",
+    "distractor2": "tfgnkc",
+    "distractor3": "tfgnkc",
+    "correct_answer": "m",
+    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc"
+  },
+  {
+    "index": 43,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "sbdmcq",
+    "distractor1": "qfzmbb",
+    "distractor2": "qfzmbb",
+    "distractor3": "qfzmbb",
+    "correct_answer": "z",
+    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb"
+  },
+  {
+    "index": 16,
+    "Condition Index": "d",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "jhldvfd",
+    "distractor1": "unclear",
+    "distractor2": "unclear",
+    "distractor3": "unclear",
+    "correct_answer": "z",
+    "stimuli": "jhldvfd,unclear,unclear,unclear"
+  },
+  {
+    "index": 15,
+    "Condition Index": "d",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "lcmnprv",
+    "distractor1": "perhaps",
+    "distractor2": "perhaps",
+    "distractor3": "perhaps",
+    "correct_answer": "z",
+    "stimuli": "lcmnprv,perhaps,perhaps,perhaps"
+  },
+  {
+    "index": 42,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "ihwwvp",
+    "distractor1": "xywjry",
+    "distractor2": "xywjry",
+    "distractor3": "xywjry",
+    "correct_answer": "z",
+    "stimuli": "ihwwvp,xywjry,xywjry,xywjry"
+  },
+  {
+    "index": 37,
+    "Condition Index": "e",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + categorised neutral word distractor",
+    "target": "grnlpsp",
+    "distractor1": "cabinet",
+    "distractor2": "cabinet",
+    "distractor3": "cabinet",
+    "correct_answer": "z",
+    "stimuli": "grnlpsp,cabinet,cabinet,cabinet"
   },
   {
     "index": 5,
+    "Condition Index": "a",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
+    "target": "perhaps",
+    "distractor1": "lcmnprv",
+    "distractor2": "lcmnprv",
+    "distractor3": "lcmnprv",
+    "correct_answer": "m",
+    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv"
   },
   {
-    "index": 45,
+    "index": 1,
+    "Condition Index": "a",
     "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "vague",
+    "distractor1": "wrflz",
+    "distractor2": "wrflz",
+    "distractor3": "wrflz",
+    "correct_answer": "m",
+    "stimuli": "vague,wrflz,wrflz,wrflz"
   },
   {
-    "index": 58,
+    "index": 9,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "unforeseen",
+    "distractor1": "mncbfljdvq",
+    "distractor2": "mncbfljdvq",
+    "distractor3": "mncbfljdvq",
+    "correct_answer": "m",
+    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq"
+  },
+  {
+    "index": 12,
+    "Condition Index": "d",
     "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "hxmwfn",
+    "distractor1": "chance",
+    "distractor2": "chance",
+    "distractor3": "chance",
+    "correct_answer": "z",
+    "stimuli": "hxmwfn,chance,chance,chance"
   },
   {
-    "index": 35,
+    "index": 14,
+    "Condition Index": "d",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "non-word target + uncertainty word distractor",
+    "target": "qddkgm",
+    "distractor1": "unsure",
+    "distractor2": "unsure",
+    "distractor3": "unsure",
+    "correct_answer": "z",
+    "stimuli": "qddkgm,unsure,unsure,unsure"
+  },
+  {
+    "index": 32,
+    "Condition Index": "e",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
+    "target": "djmrtb",
+    "distractor1": "window",
+    "distractor2": "window",
+    "distractor3": "window",
+    "correct_answer": "z",
+    "stimuli": "djmrtb,window,window,window"
+  },
+  {
+    "index": 40,
+    "Condition Index": "c",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "non-word target + non-word distractor",
+    "target": "gwyqg",
+    "distractor1": "jsghp",
+    "distractor2": "jsghp",
+    "distractor3": "jsghp",
+    "correct_answer": "z",
+    "stimuli": "gwyqg,jsghp,jsghp,jsghp"
+  },
+  {
+    "index": 0,
+    "Condition Index": "a",
+    "Condition Type": "Facilitation Condition Trials",
+    "Stimuli Combination": "uncertainty word target + non-word distractor",
+    "target": "maybe",
+    "distractor1": "trrlep",
+    "distractor2": "trrlep",
+    "distractor3": "trrlep",
+    "correct_answer": "m",
+    "stimuli": "maybe,trrlep,trrlep,trrlep"
+  },
+  {
+    "index": 54,
+    "Condition Index": "f",
+    "Condition Type": "Disengagement Condition Trials",
+    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
+    "target": "unused",
+    "distractor1": "rattle",
+    "distractor2": "rattle",
+    "distractor3": "rattle",
+    "correct_answer": "m",
+    "stimuli": "unused,rattle,rattle,rattle"
   },
   {
     "index": 49,
+    "Condition Index": "c",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
+    "target": "wypqdmmxnj",
+    "distractor1": "idccpkmmvc",
+    "distractor2": "idccpkmmvc",
+    "distractor3": "idccpkmmvc",
+    "correct_answer": "z",
+    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc"
   },
   {
     "index": 58,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
+    "target": "unnatural",
+    "distractor1": "cardboard",
+    "distractor2": "cardboard",
+    "distractor3": "cardboard",
+    "correct_answer": "m",
+    "stimuli": "unnatural,cardboard,cardboard,cardboard"
   },
   {
-    "index": 50,
+    "index": 51,
+    "Condition Index": "f",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
+    "target": "tower",
+    "distractor1": "vivid",
+    "distractor2": "vivid",
+    "distractor3": "vivid",
+    "correct_answer": "m",
+    "stimuli": "tower,vivid,vivid,vivid"
   },
   {
     "index": 46,
+    "Condition Index": "c",
     "Condition Type": "Facilitation Condition Trials",
     "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
+    "target": "rjuqubbx",
+    "distractor1": "jnkwapj",
+    "distractor2": "jnkwapj",
+    "distractor3": "jnkwapj",
+    "correct_answer": "z",
+    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj"
   },
   {
     "index": 31,
+    "Condition Index": "e",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 19,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "mncbfljdvq,unforeseen,unforeseen,unforeseen",
-    "correct_answer": "m"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 12,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "hxmwfn,chance,chance,chance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
+    "target": "pwvqs",
+    "distractor1": "clock",
+    "distractor2": "clock",
+    "distractor3": "clock",
+    "correct_answer": "z",
+    "stimuli": "pwvqs,clock,clock,clock"
   },
   {
     "index": 34,
+    "Condition Index": "e",
     "Condition Type": "Disengagement Condition Trials",
     "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 20,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "table,iqnqg,iqnqg,iqnqg",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 10,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "trrlep,maybe,maybe,maybe",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 49,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "wypqdmmxnj,idccpkmmvc,idccpkmmvc,idccpkmmvc",
-    "correct_answer": "m"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 23,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "kettle,kfftyn,kfftyn,kfftyn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 50,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "upward,colour,colour,colour",
-    "correct_answer": "z"
-  },
-  {
-    "index": 45,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "szknnjbt,pxaciuj,pxaciuj,pxaciuj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 59,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "skyscraper,unofficial,unofficial,unofficial",
-    "correct_answer": "z"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 1,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "vague,wrflz,wrflz,wrflz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 5,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "perhaps,lcmnprv,lcmnprv,lcmnprv",
-    "correct_answer": "z"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 29,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "dishwasher,ztqtpuoefr,ztqtpuoefr,ztqtpuoefr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 56,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "noodles,unitary,unitary,unitary",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 2,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "chance,hxmwfn,hxmwfn,hxmwfn",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 31,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pwvqs,clock,clock,clock",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 13,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "tfgnkc,random,random,random",
-    "correct_answer": "m"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 47,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "afjppqyq,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 58,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unnatural,cardboard,cardboard,cardboard",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 43,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sbdmcq,qfzmbb,qfzmbb,qfzmbb",
-    "correct_answer": "m"
-  },
-  {
-    "index": 55,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "instead,forward,forward,forward",
-    "correct_answer": "z"
-  },
-  {
-    "index": 25,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "picture,pvnxbqy,pvnxbqy,pvnxbqy",
-    "correct_answer": "z"
-  },
-  {
-    "index": 4,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unsure,qddkgm,qddkgm,qddkgm",
-    "correct_answer": "z"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 0,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "maybe,trrlep,trrlep,trrlep",
-    "correct_answer": "z"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 36,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "smvgxbr,utensil,utensil,utensil",
-    "correct_answer": "m"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 17,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "txvdnbb,unknown,unknown,unknown",
-    "correct_answer": "m"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 39,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ztqtpuoefr,dishwasher,dishwasher,dishwasher",
-    "correct_answer": "m"
-  },
-  {
-    "index": 22,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "window,djmrtb,djmrtb,djmrtb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 26,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "utensil,smvgxbr,smvgxbr,smvgxbr",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 35,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "pvnxbqy,picture,picture,picture",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 46,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "rjuqubbx,jnkwapj,jnkwapj,jnkwapj",
-    "correct_answer": "m"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 53,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "errand,reflex,reflex,reflex",
-    "correct_answer": "z"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 7,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unknown,txvdnbb,txvdnbb,txvdnbb",
-    "correct_answer": "z"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 30,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "iqnqg,table,table,table",
-    "correct_answer": "m"
-  },
-  {
-    "index": 57,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "context,uniform,uniform,uniform",
-    "correct_answer": "z"
-  },
-  {
-    "index": 37,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "grnlpsp,cabinet,cabinet,cabinet",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 40,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "gwyqg,jsghp,jsghp,jsghp",
-    "correct_answer": "m"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 16,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "jhldvfd,unclear,unclear,unclear",
-    "correct_answer": "m"
-  },
-  {
-    "index": 14,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "qddkgm,unsure,unsure,unsure",
-    "correct_answer": "m"
-  },
-  {
-    "index": 54,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "unused,rattle,rattle,rattle",
-    "correct_answer": "z"
-  },
-  {
-    "index": 41,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "pglql,mnklu,mnklu,mnklu",
-    "correct_answer": "m"
-  },
-  {
-    "index": 48,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "sxfghqlxc,bjxdblfvd,bjxdblfvd,bjxdblfvd",
-    "correct_answer": "m"
-  },
-  {
-    "index": 52,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "career,market,market,market",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 38,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "klgwvkzti,appliance,appliance,appliance",
-    "correct_answer": "m"
-  },
-  {
-    "index": 33,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "kfftyn,kettle,kettle,kettle",
-    "correct_answer": "m"
-  },
-  {
-    "index": 51,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "uncategorized neutral word target + uncategorized neutral distractor",
-    "Type": "f",
-    "stimuli": "tower,vivid,vivid,vivid",
-    "correct_answer": "z"
-  },
-  {
-    "index": 28,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "appliance,klgwvkzti,klgwvkzti,klgwvkzti",
-    "correct_answer": "z"
-  },
-  {
-    "index": 11,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "wrflz,vague,vague,vague",
-    "correct_answer": "m"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 9,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unforeseen,mncbfljdvq,mncbfljdvq,mncbfljdvq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 24,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "mantel,ymrqjz,ymrqjz,ymrqjz",
-    "correct_answer": "z"
-  },
-  {
-    "index": 32,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "djmrtb,window,window,window",
-    "correct_answer": "m"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 27,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "cabinet,grnlpsp,grnlpsp,grnlpsp",
-    "correct_answer": "z"
-  },
-  {
-    "index": 42,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "ihwwvp,xywjry,xywjry,xywjry",
-    "correct_answer": "m"
-  },
-  {
-    "index": 21,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "categorized neutral word target + non-word distractor",
-    "Type": "b",
-    "stimuli": "clock,pwvqs,pwvqs,pwvqs",
-    "correct_answer": "z"
-  },
-  {
-    "index": 8,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "uncertain,cgpfdjfrq,cgpfdjfrq,cgpfdjfrq",
-    "correct_answer": "z"
-  },
-  {
-    "index": 15,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "lcmnprv,perhaps,perhaps,perhaps",
-    "correct_answer": "m"
-  },
-  {
-    "index": 34,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + categorised neutral word distractor",
-    "Type": "e",
-    "stimuli": "ymrqjz,mantel,mantel,mantel",
-    "correct_answer": "m"
-  },
-  {
-    "index": 3,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "random,tfgnkc,tfgnkc,tfgnkc",
-    "correct_answer": "z"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 44,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "non-word target + non-word distractor",
-    "Type": "c",
-    "stimuli": "zjgdys,gwmwql,gwmwql,gwmwql",
-    "correct_answer": "m"
-  },
-  {
-    "index": 18,
-    "Condition Type": "Disengagement Condition Trials",
-    "Stimuli Combination": "non-word target + uncertainty word distractor",
-    "Type": "d",
-    "stimuli": "cgpfdjfrq,uncertain,uncertain,uncertain",
-    "correct_answer": "m"
-  },
-  {
-    "index": 6,
-    "Condition Type": "Facilitation Condition Trials",
-    "Stimuli Combination": "uncertainty word target + non-word distractor",
-    "Type": "a",
-    "stimuli": "unclear,jhldvfd,jhldvfd,jhldvfd",
-    "correct_answer": "z"
+    "target": "ymrqjz",
+    "distractor1": "mantel",
+    "distractor2": "mantel",
+    "distractor3": "mantel",
+    "correct_answer": "z",
+    "stimuli": "ymrqjz,mantel,mantel,mantel"
   }
 ]
