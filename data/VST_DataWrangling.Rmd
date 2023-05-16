@@ -1,0 +1,70 @@
+---
+title: "VST-Data Wrangling"
+output: html_document
+date: "2023-05-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+library("yarrr")
+library("tidyr")
+library("tidyverse")
+library("dplyr")
+library("eyelinker")
+library("ggridges")
+library("ggplot2")
+library("readr")
+library("rstatix")
+library("ggpubr")
+library("foreign")
+library("stringr")
+library("jtools")
+library("cowplot")
+library("scales")
+library("readr")
+library("rlist")
+library("knitr")
+library("jsonlite")
+library("hexbin")
+library("RColorBrewer")
+library("glmnet")
+library("stargazer")
+library("mice")
+library("readxl")
+```
+
+```{r}
+# clear environment
+rm(list = ls())
+
+# turn this off if you want scientific notation
+options(scipen = 999)
+
+# change wd
+current_wd <- dirname(rstudioapi::getSourceEditorContext()$path)
+setwd(current_wd)
+
+# get list of all csv files in the folder
+files <- list.files(pattern = "*.csv")
+```
+
+```{r}
+for (y in 1:length(files)){
+  
+  # this prints the filename
+  print(files[y])
+  
+  # read the csv file
+  data <- read_csv(files[y])
+}
+
+```
+
+```{r}
+data %>% 
+  select(rt, stimulus,  response, trial_index, task, phase, webgazer_data, correct_response)->df
+```
+
