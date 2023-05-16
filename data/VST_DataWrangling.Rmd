@@ -36,7 +36,7 @@ library("mice")
 library("readxl")
 ```
 
-```{r}
+```{r message=FALSE}
 # clear environment
 rm(list = ls())
 
@@ -46,6 +46,13 @@ options(scipen = 999)
 # change wd
 current_wd <- dirname(rstudioapi::getSourceEditorContext()$path)
 setwd(current_wd)
+
+parent_dir <- dirname(getwd())
+
+shuffled_stimuli <- read_csv(paste(parent_dir, "/shuffled_stimuli.csv", sep=""))
+
+shuffled_stimuli %>% 
+  dplyr::select(target, distractor1, distractor2, distractor3, correct_answer)->ss_df
 
 # get list of all csv files in the folder
 files <- list.files(pattern = "*.csv")
@@ -59,12 +66,58 @@ for (y in 1:length(files)){
   
   # read the csv file
   data <- read_csv(files[y])
+  
+  id <- substring(files[y],9,10)
+  data$id <- rep(id, 1, nrow(data))
+  
+  data %>% 
+    dplyr::select(id, rt, stimulus,  response, task, phase, webgazer_data)->df2
+  
+  df2 %>% 
+    filter(phase=="test" & task =="VST")->df
+  
+  # Extract words between ">" and "</div>"
+  library(stringr)
+  extracted_words <- str_extract_all(df$stimulus, "(?<=\\>)[^<]+(?=</div>)")
+  
+  # Create a data frame with extracted words as separate columns
+  df_split <- as.data.frame(t(sapply(extracted_words, c)))
+  
+  # Rename the columns
+  colnames(df_split) <- paste0("word_", seq_len(ncol(df_split)))
+  
+  # Rearrange elements with different element presented first
+  rearranged_df <- t(apply(df_split, 1, function(row) {
+    different_indices <- which(row != row[1])
+    c(row[different_indices], row[-different_indices])
+  }))
+  
+  # Convert back to dataframe with original column names
+  rearranged_df <- as.data.frame(rearranged_df, stringsAsFactors = FALSE)
+  colnames(rearranged_df) <- c("target", "distractor1", "distractor2", "distractor3")
+  
+  # Combine the original dataframe with the split words dataframe
+  df_final <- cbind(df, rearranged_df)
+  
+  df_final <- left_join(df_final, ss_df, by = c("target", "distractor1", "distractor2", "distractor3"))
+  
+  df_final$CORRECT <- if_else(df_final$response==df_final$correct_answer,1,0)
+  
+  if (y==1){
+    FINAL <-  df_final
+  }else{
+    FINAL <- rbind(FINAL, df_final)
+  }
 }
 
 ```
 
 ```{r}
-data %>% 
-  select(rt, stimulus,  response, trial_index, task, phase, webgazer_data, correct_response)->df
+
+
+
+FINAL %>% 
+  group_by(id) %>% 
+  summarise(n=sum(CORRECT))->df_grouped
 ```
 
