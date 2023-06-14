@@ -7,7 +7,7 @@ var likert_scale_second_questionnaire = [
   
   var STAIT_survey = {
     type: jsPsychSurveyLikert,
-     preamble: "<h1>STAI-T</h1><div>A number of statements which people have used to describe themselves are given below. Read each statement and then select the statement that indicates HOW YOU GENERALLY FEEL. There are no right or wrong answers. Do not spend too much time on any one     statement but give the answer which seems to describe how you generally feel. Thank you.</div>",
+     preamble: "<h1>Questionnaire 2</h1><div>A number of statements which people have used to describe themselves are given below. Read each statement and then select the statement that indicates HOW YOU GENERALLY FEEL. There are no right or wrong answers. Do not spend too much time on any one     statement but give the answer which seems to describe how you generally feel. Thank you.</div>",
     questions: [
       {prompt: "<b>I feel that difficulties are piling up so that I cannot overcome them.</b>", labels: likert_scale_second_questionnaire, required: true},
       {prompt: "<b>I  worry too much over something that really doesn't matter.</b>", labels: likert_scale_second_questionnaire, required: true},

@@ -8,7 +8,7 @@ var likert_scale_IUS = [
   
   var IUS_survey = {
     type: jsPsychSurveyLikert,
-     preamble: "<h1>IUS</h1><div><b>You will find below a series of statements which describe how people may react to the uncertainties of life. Please use the scale below to describe to what extent each item is characteristic of you.</b></div>",
+     preamble: "<h1>Questionnaire 1</h1><div><b>You will find below a series of statements which describe how people may react to the uncertainties of life. Please use the scale below to describe to what extent each item is characteristic of you.</b></div>",
     questions: [
       {prompt: "<b>Unforeseen events upset me greatly.</b>", labels: likert_scale_IUS, required: true},
       {prompt: "<b>It frustrates me not having all the information I need.</b>", labels: likert_scale_IUS, required: true},

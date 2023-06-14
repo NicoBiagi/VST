@@ -5,7 +5,11 @@
     <script src="jspsych/dist/jspsych.js"></script>
     <script src="jspsych/dist/plugin-html-keyboard-response.js"></script>
     <script src="jspsych/dist/plugin-fullscreen.js"></script>
+    <script src="jspsych/dist/plugin-instructions.js"></script>
     <script src="jspsych/dist/plugin-survey-likert.js"></script>
+    <script src="jspsych/dist/plugin-survey-html-form.js"></script>
+    <script src="jspsych/dist/plugin-survey-text.js"></script>
+    <script src="jspsych/dist/plugin-survey-multi-choice.js"></script>
     <script src="jspsych/dist/plugin-html-button-response.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/jspsych/jspsych@jspsych@7.0.0/examples/js/webgazer/webgazer.js"></script>
     <script src="jspsych/dist/plugin-webgazer-calibrate.js"></script>
@@ -15,9 +19,17 @@
     <script src="shuffled_stimuli.js"></script>
     <script src="jquery-3.6.4.min.js"></script>
     <script src="general_instructions.js"></script>
+    <script src="information_sheet.js"></script>
+    <script src="consent_form.js"></script>
+    <script src="consent.js"></script>
+    <script src="task_instructions.js"></script>
+    <script src="task_end.js"></script>
+    <script src="demographics.js"></script>
     <script src="extension-webgazer.js"></script>
     <script src="IUS.js"></script>
     <script src="STAI-T.js"></script>
+    <script src="IBSS.js"></script>
+    <script src="BIS.js"></script>
     <link href="jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
   </head>
 <body></body>
@@ -31,6 +43,9 @@
         //     jsPsych.data.displayData();
         // }
     });
+
+    var version = jsPsych.version();
+console.log(version);
 
 var enter_fullscreen = {
       type: jsPsychFullscreen,
@@ -297,8 +312,13 @@ var practice = {
         ],
 }
 
+
+// GENERAL SETUP
 timeline.push(general_instructions);
-// timeline.push(enter_fullscreen);
+timeline.push(info_sheet);
+timeline.push(consent_form);
+timeline.push(consent);
+timeline.push(enter_fullscreen);
 
 // EYE TRACKER
 timeline.push(camera_instructions);
@@ -310,9 +330,19 @@ timeline.push(validation);
 timeline.push(recalibrate);
 timeline.push(calibration_done);
 
+// EXPERIMENT
+timeline.push(task_instructions);
+//timeline.push(task_practice);
 timeline.push(test_procedure);
+timeline.push(task_end);
+
+//QUESTIONNAIRES
+timeline.push(demographics_text);
+timeline.push(demographics_choice);
 timeline.push(IUS_survey);
 timeline.push(STAIT_survey);
+timeline.push(IBSS_survey);
+timeline.push(BIS_survey);
 timeline.push(exit_fullscreen);
 timeline.push(end);
 
