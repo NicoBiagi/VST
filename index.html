@@ -7,6 +7,7 @@
     <script src="jspsych/dist/plugin-fullscreen.js"></script>
     <script src="jspsych/dist/plugin-survey-likert.js"></script>
     <script src="jspsych/dist/plugin-html-button-response.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jspsych/jspsych@jspsych@7.0.0/examples/js/webgazer/webgazer.js"></script>
     <script src="jspsych/dist/plugin-webgazer-calibrate.js"></script>
     <script src="jspsych/dist/plugin-webgazer-init-camera.js"></script>
     <script src="jspsych/dist/plugin-webgazer-validate.js"></script>
@@ -14,13 +15,22 @@
     <script src="shuffled_stimuli.js"></script>
     <script src="jquery-3.6.4.min.js"></script>
     <script src="general_instructions.js"></script>
-    <script src="webgazer.js"></script>
+    <script src="extension-webgazer.js"></script>
     <script src="IUS.js"></script>
     <script src="STAI-T.js"></script>
     <link href="jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
   </head>
 <body></body>
   <script>
+
+    /* initialize jsPsych */
+    var jsPsych = initJsPsych({
+        extensions: [
+            { type: jsPsychExtensionWebgazer }],
+        // on_finish: function () {
+        //     jsPsych.data.displayData();
+        // }
+    });
 
 var enter_fullscreen = {
       type: jsPsychFullscreen,
@@ -173,9 +183,6 @@ function shuffleArray(array) {
 
   var trialcorrect=[];
 
-  /* start the experiment */
-  var jsPsych = initJsPsych({
-});
 
   // Define a jsPsych trial to display the words
   var wordDisplayTrial = {
@@ -201,6 +208,12 @@ function shuffleArray(array) {
     },
     choices: ['z', 'm'],
     trial_duration: 3000,
+    extensions: [
+            {
+                type: jsPsychExtensionWebgazer,
+                params: {targets: ['#jspsych-image0keyboard-response-stimulus']}
+            }
+        ],
     data:{
             task: 'VST',
             correct_response: function() {
@@ -233,6 +246,12 @@ var outcome = {
             }
         },
         trial_duration: 1000,
+        extensions: [
+            {
+                type: jsPsychExtensionWebgazer,
+                params: {targets: ['#jspsych-image0keyboard-response-stimulus']}
+            }
+        ],
         data: {
             task: "feedback"
         }
@@ -255,6 +274,12 @@ var test_procedure = {
           data: {
             phase: 'test'
         },
+        extensions: [
+            {
+                type: jsPsychExtensionWebgazer,
+                params: {targets: ['#jspsych-image0keyboard-response-stimulus']}
+            }
+        ],
 }
 
 // Define a jsPsych timeline and add the word display trial
@@ -264,10 +289,16 @@ var practice = {
           data: {
             phase: 'practice'
         },
+        extensions: [
+            {
+                type: jsPsychExtensionWebgazer,
+                params: {targets: ['#jspsych-image0keyboard-response-stimulus']}
+            }
+        ],
 }
 
 timeline.push(general_instructions);
-timeline.push(enter_fullscreen);
+// timeline.push(enter_fullscreen);
 
 // EYE TRACKER
 timeline.push(camera_instructions);
