@@ -17,12 +17,15 @@
     <script src="jspsych/dist/plugin-webgazer-validate.js"></script>
     <script src="jspsych/dist/extension-webgazer.js"></script>
     <script src="shuffled_stimuli.js"></script>
+    <script src="practice_stim.js"></script>
     <script src="jquery-3.6.4.min.js"></script>
     <script src="general_instructions.js"></script>
     <script src="information_sheet.js"></script>
     <script src="consent_form.js"></script>
     <script src="consent.js"></script>
     <script src="task_instructions.js"></script>
+    <script src="practice_instructions.js"></script>
+    <script src="practice_end.js"></script>
     <script src="task_end.js"></script>
     <script src="demographics.js"></script>
     <script src="extension-webgazer.js"></script>
@@ -283,8 +286,8 @@ var outcome = {
     };
 
 // Define a jsPsych timeline and add the word display trial
-var test_procedure = {
-  timeline: [fixation, wordDisplayTrial, outcome],
+var task_procedure = {
+  timeline: [fixation, wordDisplayTrial],
   repetitions: 10, //shuffled_stimuli.length,
           data: {
             phase: 'test'
@@ -298,9 +301,9 @@ var test_procedure = {
 }
 
 // Define a jsPsych timeline and add the word display trial
-var practice = {
+var task_practice = {
   timeline: [fixation, wordDisplayTrial, outcome],
-  repetitions: 10, //shuffled_stimuli.length,
+  repetitions: practice_stimuli.length,
           data: {
             phase: 'practice'
         },
@@ -332,8 +335,10 @@ timeline.push(calibration_done);
 
 // EXPERIMENT
 timeline.push(task_instructions);
-//timeline.push(task_practice);
-timeline.push(test_procedure);
+timeline.push(practice_instructions);
+timeline.push(task_practice);
+timeline.push(practice_end);
+timeline.push(task_procedure);
 timeline.push(task_end);
 
 //QUESTIONNAIRES
