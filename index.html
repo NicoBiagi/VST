@@ -16,6 +16,7 @@
     <script src="jspsych/dist/plugin-webgazer-init-camera.js"></script>
     <script src="jspsych/dist/plugin-webgazer-validate.js"></script>
     <script src="jspsych/dist/extension-webgazer.js"></script>
+    <script src="jspsych/dist/plugin-call-function.js"></script>
     <script src="shuffled_stimuli.js"></script>
     <script src="practice_stim.js"></script>
     <script src="jquery-3.6.4.min.js"></script>
@@ -315,6 +316,20 @@ var task_practice = {
         ],
 }
 
+var cursor_off = {
+    type: jsPsychCallFunction,
+    func: function() {
+        document.body.style.cursor= "none";
+    }
+}
+
+var cursor_on = {
+    type: jsPsychCallFunction,
+    func: function() {
+        document.body.style.cursor= "auto";
+    }
+}
+
 
 // GENERAL SETUP
 timeline.push(general_instructions);
@@ -335,18 +350,19 @@ timeline.push(calibration_done);
 
 // EXPERIMENT
 timeline.push(task_instructions);
+timeline.push(cursor_off);
 timeline.push(practice_instructions);
 timeline.push(task_practice);
 timeline.push(practice_end);
 timeline.push(task_procedure);
 timeline.push(task_end);
+timeline.push(cursor_on);
 
 //QUESTIONNAIRES
 timeline.push(demographics_text);
 timeline.push(demographics_choice);
 timeline.push(IUS_survey);
 timeline.push(STAIT_survey);
-timeline.push(IBSS_survey);
 timeline.push(BIS_survey);
 timeline.push(exit_fullscreen);
 timeline.push(end);
