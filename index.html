@@ -293,7 +293,7 @@ var outcome = {
 // Define a jsPsych timeline and add the word display trial
 var task_procedure = {
   timeline: [fixation, wordDisplayTrial],
-  repetitions: 10, //shuffled_stimuli.length,
+  repetitions: shuffled_stimuli.length,
           data: {
             phase: 'test'
         },
