@@ -17,6 +17,7 @@
     <script src="jspsych/dist/plugin-webgazer-validate.js"></script>
     <script src="jspsych/dist/extension-webgazer.js"></script>
     <script src="jspsych/dist/plugin-call-function.js"></script>
+    <script src="jspsych/dist/plugin-browser-check.js"></script>
     <script src="shuffled_stimuli.js"></script>
     <script src="practice_stim.js"></script>
     <script src="jquery-3.6.4.min.js"></script>
@@ -62,6 +63,9 @@ var enter_fullscreen = {
       delay_after: 0
 };
 
+var screen_setting = {
+        type: jsPsychBrowserCheck
+    };
 
     var init_camera_trial = {
         type: jsPsychWebgazerInitCamera
@@ -336,7 +340,8 @@ timeline.push(general_instructions);
 timeline.push(info_sheet);
 timeline.push(consent_form);
 timeline.push(consent);
-timeline.push(enter_fullscreen);
+timeline.push(enter_fullscreen); 
+timeline.push(screen_setting);
 
 // EYE TRACKER
 timeline.push(camera_instructions);
