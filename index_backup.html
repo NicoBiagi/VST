@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visual Search Task</title>
+    <script src="jspsych/dist/jspsych.js"></script>
+    <script src="jspsych/dist/plugin-html-keyboard-response.js"></script>
+    <script src="jspsych/dist/plugin-fullscreen.js"></script>
+    <script src="jspsych/dist/plugin-instructions.js"></script>
+    <script src="jspsych/dist/plugin-survey-likert.js"></script>
+    <script src="jspsych/dist/plugin-survey-html-form.js"></script>
+    <script src="jspsych/dist/plugin-survey-text.js"></script>
+    <script src="jspsych/dist/plugin-survey-multi-choice.js"></script>
+    <script src="jspsych/dist/plugin-html-button-response.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jspsych/jspsych@jspsych@7.0.0/examples/js/webgazer/webgazer.js"></script>
+    <script src="jspsych/dist/plugin-webgazer-calibrate.js"></script>
+    <script src="jspsych/dist/plugin-webgazer-init-camera.js"></script>
+    <script src="jspsych/dist/plugin-webgazer-validate.js"></script>
+    <script src="jspsych/dist/extension-webgazer.js"></script>
+    <script src="jspsych/dist/plugin-call-function.js"></script>
+    <script src="jspsych/dist/plugin-browser-check.js"></script>
+    <script src="shuffled_stimuli.js"></script>
+    <script src="practice_stim.js"></script>
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="general_instructions.js"></script>
+    <script src="information_sheet.js"></script>
+    <script src="consent_form.js"></script>
+    <script src="consent.js"></script>
+    <script src="task_instructions.js"></script>
+    <script src="practice_instructions.js"></script>
+    <script src="practice_end.js"></script>
+    <script src="task_end.js"></script>
+    <script src="demographics.js"></script>
+    <script src="extension-webgazer.js"></script>
+    <script src="IUS.js"></script>
+    <script src="STAI-T.js"></script>
+    <script src="IBSS.js"></script>
+    <script src="BIS.js"></script>
+    <link href="jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+<body></body>
+  <script>
+
+    /* initialize jsPsych */
+    var jsPsych = initJsPsych({
+       
+    });
+
+    var version = jsPsych.version();
+console.log(version);
+
+var enter_fullscreen = {
+      type: jsPsychFullscreen,
+      fullscreen_mode: true
+    };
+
+    var exit_fullscreen = {
+      type: jsPsychFullscreen,
+      fullscreen_mode: false,
+      delay_after: 0
+};
+
+var screen_setting = {
+        type: jsPsychBrowserCheck
+    };
+
+   
+
+    var goodbye = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "You have reached the end of the experiment. You can now close this webpage."
+    }
+    
+
+   
+
+
+  // Load JS file
+  $.getJSON('shuffled_stimuli.js', function(data) {
+  
+  // Get the data from the JS file
+  const items = data.items;
+  
+  // Split the comma-separated string in one of the columns
+  items.forEach(item => {
+    item.stimuli = item.stimuli.split(',');
+  });
+});
+  
+  // Convert JS to array
+  var names = []
+  for(x in shuffled_stimuli)
+  names.push(shuffled_stimuli[x].stimuli);
+
+  var CR = []
+  for(x in shuffled_stimuli)
+  CR.push(shuffled_stimuli[x].correct_answer)
+
+  // split the comma-separated words
+  myArray = names.map(str => str.split(","));
+ 
+
+  // define a function to shuffle the array
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+  /* create timeline */
+  var timeline = [];
+
+  var trialcorrect=[];
+
+
+  // Define a jsPsych trial to display the words
+  var wordDisplayTrial = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: function() {
+      const quadrantSize = window.innerWidth / 4;
+      const centerX = window.innerWidth / 3;
+      const centerY = window.innerHeight / 3;
+      const quadrants = [
+        { x: 0, y: 0 },
+        { x: quadrantSize, y: 0 },
+        { x: 0, y: quadrantSize },
+        { x: quadrantSize, y: quadrantSize },
+      ];
+      const firstRow = myArray.shift();
+      shuffleArray(firstRow);
+
+      let html = '';
+      for (let i = 0; i < 4; i++) {
+        html += `<div class="word" style="position:absolute; top:${centerY + quadrants[i].y}px; left:${centerX + quadrants[i].x}px;">${firstRow[i]}</div>`;
+      }
+      return html;
+    },
+    choices: ['z', 'm'],
+    trial_duration: 3000,
+    data:{
+            task: 'VST',
+            correct_response: function() {
+      return CR.pop();
+    },
+        },
+        on_finish: function(data) {
+          correct_response = CR.shift();
+          data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
+        }
+    };
+
+var fixation = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: '<div style="font-size:60px;">+</div>',
+  choices: "NO_KEYS",
+  trial_duration: 1000,
+};
+
+var outcome = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: function (data) {
+            if (jsPsych.data.get().last(1).trials[0].correct == true) {
+                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">CORRECT</p>'
+            } else if (jsPsych.data.get().last(1).trials[0].response == null) {
+                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">MISSED</p>'
+            }
+            else {
+                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">INCORRECT</p>'
+            }
+        },
+        trial_duration: 1000,
+        data: {
+            task: "feedback"
+        }
+    };
+
+    /* create the end screen */
+    var end = {
+        type: jsPsychHtmlKeyboardResponse,
+        stimulus: `<p>You're done! A .csv file containing your data should be automatically downloading right now.
+        Check your default downloads location to find it. Once you've found it you can close the experiment.</p>`,
+        on_load: function () {
+          jsPsych.data.get().localSave('csv','VST-data_BACKUP.csv');
+        }
+    };
+
+// Define a jsPsych timeline and add the word display trial
+var task_procedure = {
+  timeline: [fixation, wordDisplayTrial],
+  repetitions: shuffled_stimuli.length,
+          data: {
+            phase: 'test'
+        }
+}
+
+// Define a jsPsych timeline and add the word display trial
+var task_practice = {
+  timeline: [fixation, wordDisplayTrial, outcome],
+  repetitions: practice_stimuli.length,
+          data: {
+            phase: 'practice'
+        }
+}
+
+var cursor_off = {
+    type: jsPsychCallFunction,
+    func: function() {
+        document.body.style.cursor= "none";
+    }
+}
+
+var cursor_on = {
+    type: jsPsychCallFunction,
+    func: function() {
+        document.body.style.cursor= "auto";
+    }
+}
+
+
+// GENERAL SETUP
+timeline.push(general_instructions);
+timeline.push(info_sheet);
+timeline.push(consent_form);
+timeline.push(consent);
+timeline.push(enter_fullscreen); 
+timeline.push(screen_setting);
+
+// EXPERIMENT
+timeline.push(task_instructions);
+timeline.push(cursor_off);
+timeline.push(practice_instructions);
+timeline.push(task_practice);
+timeline.push(practice_end);
+timeline.push(task_procedure);
+timeline.push(task_end);
+timeline.push(cursor_on);
+
+//QUESTIONNAIRES
+timeline.push(demographics_text);
+timeline.push(demographics_choice);
+timeline.push(IUS_survey);
+timeline.push(STAIT_survey);
+timeline.push(BIS_survey);
+timeline.push(exit_fullscreen);
+timeline.push(end);
+
+
+jsPsych.run(timeline);
+
+</script>
+</html>
+
