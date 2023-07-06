@@ -230,7 +230,7 @@ function shuffleArray(array) {
       return html;
     },
     choices: ['z', 'm'],
-    trial_duration: 3000,
+    trial_duration: null,
     extensions: [
             {
                 type: jsPsychExtensionWebgazer,
@@ -252,6 +252,13 @@ function shuffleArray(array) {
 var fixation = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: '<div style="font-size:60px;">+</div>',
+  choices: "NO_KEYS",
+  trial_duration: 700,
+};
+
+var blank  = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: '',
   choices: "NO_KEYS",
   trial_duration: 1000,
 };
@@ -292,7 +299,7 @@ var outcome = {
 
 // Define a jsPsych timeline and add the word display trial
 var task_procedure = {
-  timeline: [fixation, wordDisplayTrial],
+  timeline: [fixation, wordDisplayTrial, blank],
   repetitions: 120,
           data: {
             phase: 'test'
@@ -335,27 +342,27 @@ var cursor_on = {
 }
 
 
-// GENERAL SETUP
-timeline.push(general_instructions);
-timeline.push(info_sheet);
-timeline.push(consent_form);
-timeline.push(consent);
-timeline.push(enter_fullscreen); 
-timeline.push(screen_setting);
+// // GENERAL SETUP
+// timeline.push(general_instructions);
+// timeline.push(info_sheet);
+// timeline.push(consent_form);
+// timeline.push(consent);
+// timeline.push(enter_fullscreen); 
+// timeline.push(screen_setting);
 
-// EYE TRACKER
-timeline.push(camera_instructions);
-timeline.push(init_camera);
-timeline.push(calibration_instructions);
-timeline.push(calibration);
-timeline.push(validation_instructions);
-timeline.push(validation);
-timeline.push(recalibrate);
-timeline.push(calibration_done);
+// // EYE TRACKER
+// timeline.push(camera_instructions);
+// timeline.push(init_camera);
+// timeline.push(calibration_instructions);
+// timeline.push(calibration);
+// timeline.push(validation_instructions);
+// timeline.push(validation);
+// timeline.push(recalibrate);
+// timeline.push(calibration_done);
 
-// EXPERIMENT
-timeline.push(task_instructions);
-timeline.push(cursor_off);
+// // EXPERIMENT
+// timeline.push(task_instructions);
+// timeline.push(cursor_off);
 timeline.push(practice_instructions);
 timeline.push(task_practice);
 timeline.push(practice_end);
