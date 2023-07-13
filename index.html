@@ -49,8 +49,8 @@
         // }
     });
 
-    var version = jsPsych.version();
-console.log(version);
+ /* create timeline */
+ var timeline = [];
 
 var enter_fullscreen = {
       type: jsPsychFullscreen,
@@ -201,12 +201,8 @@ function shuffleArray(array) {
   return array;
 }
 
-  /* create timeline */
-  var timeline = [];
-
-  var trialcorrect=[];
-
-
+ 
+var correct_response;
   // Define a jsPsych trial to display the words
   var wordDisplayTrial = {
     type: jsPsychHtmlKeyboardResponse,
@@ -239,13 +235,12 @@ function shuffleArray(array) {
         ],
     data:{
             task: 'VST',
-            correct_response: function() {
-      return CR.pop();
-    },
         },
         on_finish: function(data) {
+          data.correct = jsPsych.pluginAPI.compareKeys(data.response, correct_response);
+        },
+        on_start: function(data){
           correct_response = CR.shift();
-          data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
         }
     };
 
@@ -268,8 +263,6 @@ var outcome = {
         stimulus: function (data) {
             if (jsPsych.data.get().last(1).trials[0].correct == true) {
                 return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">CORRECT</p>'
-            } else if (jsPsych.data.get().last(1).trials[0].response == null) {
-                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">MISSED</p>'
             }
             else {
                 return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">INCORRECT</p>'
@@ -315,7 +308,7 @@ var task_procedure = {
 // Define a jsPsych timeline and add the word display trial
 var task_practice = {
   timeline: [fixation, wordDisplayTrial, outcome],
-  repetitions: practice_stimuli.length,
+  repetitions: 6,
           data: {
             phase: 'practice'
         },
@@ -360,7 +353,7 @@ timeline.push(validation);
 timeline.push(recalibrate);
 timeline.push(calibration_done);
 
-// EXPERIMENT
+// // EXPERIMENT
 timeline.push(task_instructions);
 timeline.push(cursor_off);
 timeline.push(practice_instructions);

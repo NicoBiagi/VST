@@ -1,4 +1,8 @@
 index,Condition Index,Condition Type,Stimuli Combination,target,distractor1,distractor2,distractor3,correct_answer,stimuli
+0,practice,practice,categorized neutral word target + non-word distractor,test,zxcv,zxcv,zxcv,m,"test,zxcv,zxcv,zxcv"
+0,practice,practice,non-word target + categorised neutral word distractor,zxcv,test,test,test,z,"zxcv,test,test,test"
+0,practice,practice,categorized neutral word target + neutral word distractor,practice,test,test,test,m,"practice,test,test,test"
+0,practice,practice,non-word target + non-word distractor,asdf,zxcv,zxcv,zxcv,z,"asdf,zxcv,zxcv,zxcv"
 17,d,Disengagement Condition Trials,non-word target + uncertainty word distractor,txvdnbb,unknown,unknown,unknown,z,"txvdnbb,unknown,unknown,unknown"
 40,c,Facilitation Condition Trials,non-word target + non-word distractor,gwyqg,jsghp,jsghp,jsghp,z,"gwyqg,jsghp,jsghp,jsghp"
 11,d,Disengagement Condition Trials,non-word target + uncertainty word distractor,wrflz,vague,vague,vague,z,"wrflz,vague,vague,vague"

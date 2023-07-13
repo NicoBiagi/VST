@@ -140,16 +140,15 @@ function shuffleArray(array) {
     trial_duration: null,
     data:{
             task: 'VST',
-            correct_response: function() {
-      return CR.pop();
-    },
         },
         on_finish: function(data) {
+          data.correct = jsPsych.pluginAPI.compareKeys(data.response, correct_response);
+        },
+        on_start: function(data){
           correct_response = CR.shift();
-          data.correct = jsPsych.pluginAPI.compareKeys(data.response, data.correct_response);
         }
     };
-
+    
 var fixation = {
   type: jsPsychHtmlKeyboardResponse,
   stimulus: '<div style="font-size:60px;">+</div>',
@@ -204,7 +203,7 @@ var task_procedure = {
 // Define a jsPsych timeline and add the word display trial
 var task_practice = {
   timeline: [fixation, wordDisplayTrial, outcome],
-  repetitions: practice_stimuli.length,
+  repetitions: 6,
           data: {
             phase: 'practice'
         }
