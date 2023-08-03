@@ -7,7 +7,7 @@ var likert_scale_fourth_questionnaire = [
   
   var BIS_survey = {
     type: jsPsychSurveyLikert,
-     preamble: "<h1>Questionnaire 4</h1><div>People differ in the ways they act and think in different situations. This is a test to measure some of the ways in which you act and think. Read each statement and put an X on the appropriate circle on the right side of this page. Do not spend too much time on any statement. Answer quickly and honestly.</div>",
+     preamble: "<h1>Questionnaire 3</h1><div>People differ in the ways they act and think in different situations. This is a test to measure some of the ways in which you act and think. Read each statement and put an X on the appropriate circle on the right side of this page. Do not spend too much time on any statement. Answer quickly and honestly.</div>",
     questions: [
       {prompt: "<b>I plan tasks carefully</b>", labels: likert_scale_fourth_questionnaire, required: true},
       {prompt: "<b>I do things without thinking</b>", labels: likert_scale_fourth_questionnaire, required: true},
