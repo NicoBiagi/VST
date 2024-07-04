@@ -12,6 +12,7 @@ var likert_scale_second_questionnaire = [
       {prompt: "<b>I feel that difficulties are piling up so that I cannot overcome them.</b>", labels: likert_scale_second_questionnaire, required: true},
       {prompt: "<b>I  worry too much over something that really doesn't matter.</b>", labels: likert_scale_second_questionnaire, required: true},
       {prompt: "<b>Some unimportant thoughts run through my mind and bothers me.</b>", labels: likert_scale_second_questionnaire, required: true},
+      {prompt: "<b>Please select Somewhat.</b>", labels: likert_scale_second_questionnaire, required: true},
       {prompt: "<b>I take disappointments so keenly that I can't put them out of my mind.</b>", labels: likert_scale_second_questionnaire, required: true},
       {prompt: "<b>I get in a state of tension or turmoil as I think over my recent concerns and interests.</b>", labels: likert_scale_second_questionnaire, required: true},
     ],

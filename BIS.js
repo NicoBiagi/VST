@@ -19,6 +19,7 @@ var likert_scale_fourth_questionnaire = [
       {prompt: "<b>I am self controlled</b>", labels: likert_scale_fourth_questionnaire, required: true},
       {prompt: "<b>I concentrate easily</b>", labels: likert_scale_fourth_questionnaire, required: true},
       {prompt: "<b>I save regularly</b>", labels: likert_scale_fourth_questionnaire, required: true},
+      {prompt: "<b>Please select Often</b>", labels: likert_scale_fourth_questionnaire, required: true},
       {prompt: "<b>I “squirm” at plays or lectures</b>", labels: likert_scale_fourth_questionnaire, required: true},
       {prompt: "<b>I am a careful thinker</b>", labels: likert_scale_fourth_questionnaire, required: true},
       {prompt: "<b>I plan for job security</b>", labels: likert_scale_fourth_questionnaire, required: true},
