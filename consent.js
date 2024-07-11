@@ -9,7 +9,7 @@ var consent = {
     '<div style="">'+
 
       '<input type="checkbox" id="consent1" name="consent1" required>'+
-        '<label for="consent1"> I have read the accompanying Information Sheet relating to the project on ‘Individual differences in the visual search task’.</label><br><br>'+
+        '<label for="consent1"> I have read the accompanying Information Sheet relating to the project on "Individual differences in the visual search task" .</label><br><br>'+
       '<input type="checkbox" id="consent2" name="consent2" required>'+
         '<label for="consent2">I understand the purposes of the project and what will be required of me, and any questions I have had have been answered to my satisfaction. I agree to the arrangements described in the Information Sheet in so far as they relate to my participation.</label><br><br>'+
       '<input type="checkbox" id="consent3" name="consent3" required>'+
