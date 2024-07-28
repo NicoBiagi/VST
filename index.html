@@ -31,351 +31,511 @@
     <script src="task_end.js"></script>
     <script src="demographics.js"></script>
     <script src="extension-webgazer.js"></script>
-    <script src="IUS.js"></script>
+    <!--<script src="IUS.js"></script>-->
     <script src="STAI-T.js"></script>
     <script src="IBSS.js"></script>
     <script src="BIS.js"></script>
     <link href="jspsych/dist/jspsych.css" rel="stylesheet" type="text/css" />
   </head>
-<body></body>
+  <body></body>
   <script>
-
     /* initialize jsPsych */
     var jsPsych = initJsPsych({
-        extensions: [
-            { type: jsPsychExtensionWebgazer }],
-        // on_finish: function () {
-        //     jsPsych.data.displayData();
-        // }
+      extensions: [{ type: jsPsychExtensionWebgazer }],
+      // on_finish: function () {
+      //     jsPsych.data.displayData();
+      // }
     });
 
- /* create timeline */
- var timeline = [];
+    /* create timeline */
+    var timeline = [];
 
-var enter_fullscreen = {
+    var enter_fullscreen = {
       type: jsPsychFullscreen,
-      fullscreen_mode: true
+      fullscreen_mode: true,
     };
 
     var exit_fullscreen = {
       type: jsPsychFullscreen,
       fullscreen_mode: false,
-      delay_after: 0
-};
+      delay_after: 0,
+    };
 
-var screen_setting = {
-        type: jsPsychBrowserCheck
+    var screen_setting = {
+      type: jsPsychBrowserCheck,
     };
 
     var init_camera_trial = {
-        type: jsPsychWebgazerInitCamera
+      type: jsPsychWebgazerInitCamera,
     };
 
     var goodbye = {
       type: jsPsychHtmlKeyboardResponse,
-      stimulus: "You have reached the end of the experiment. You can now close this webpage."
-    }
-    
+      stimulus:
+        "You have reached the end of the experiment. You can now close this webpage.",
+    };
 
     var camera_instructions = {
-        type: jsPsychHtmlButtonResponse,
-        stimulus: `
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
           <p>In order to participate you must allow the experiment to use your camera.</p>
           <p>You will be prompted to do this on the next screen.</p>
           <p>If you do not wish to allow use of your camera, you cannot participate in this experiment.<p>
           <p>It may take up to 30 seconds for the camera to initialize after you give permission.</p>
         `,
-        choices: ['Got it'],
-      }
+      choices: ["Got it"],
+    };
 
-      var init_camera = {
-        type: jsPsychWebgazerInitCamera
-      }
+    var init_camera = {
+      type: jsPsychWebgazerInitCamera,
+    };
 
-      var calibration_instructions = {
-        type: jsPsychHtmlButtonResponse,
-        stimulus: `
+    var calibration_instructions = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
           <p>Now you'll calibrate the eye tracking, so that the software can use the image of your eyes to predict where you are looking.</p>
           <p>You'll see a series of dots appear on the screen. Look at each dot and click on it.</p>
         `,
-        choices: ['Got it'],
-      }
+      choices: ["Got it"],
+    };
 
-      var calibration = {
-        type: jsPsychWebgazerCalibrate,
-        calibration_points: [
-          [25,25],[75,25],[50,50],[25,75],[75,75]
-        ],
-        repetitions_per_point: 2,
-        randomize_calibration_order: true
-      }
+    var calibration = {
+      type: jsPsychWebgazerCalibrate,
+      calibration_points: [
+        [25, 25],
+        [75, 25],
+        [50, 50],
+        [25, 75],
+        [75, 75],
+      ],
+      repetitions_per_point: 2,
+      randomize_calibration_order: true,
+    };
 
-      var validation_instructions = {
-        type: jsPsychHtmlButtonResponse,
-        stimulus: `
+    var validation_instructions = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
           <p>Now we'll measure the accuracy of the calibration.</p>
           <p>Look at each dot as it appears on the screen.</p>
           <p style="font-weight: bold;">You do not need to click on the dots this time.</p>
         `,
-        choices: ['Got it'],
-        post_trial_gap: 1000
-      }
+      choices: ["Got it"],
+      post_trial_gap: 1000,
+    };
 
-      var validation = {
-        type: jsPsychWebgazerValidate,
-        validation_points: [
-          [25,25],[75,25],[50,50],[25,75],[75,75]
-        ],
-        roi_radius: 200,
-        time_to_saccade: 1000,
-        validation_duration: 2000,
-        data: {
-          task: 'validate'
-        }
-      }
+    var validation = {
+      type: jsPsychWebgazerValidate,
+      validation_points: [
+        [25, 25],
+        [75, 25],
+        [50, 50],
+        [25, 75],
+        [75, 75],
+      ],
+      roi_radius: 200,
+      time_to_saccade: 1000,
+      validation_duration: 2000,
+      data: {
+        task: "validate",
+      },
+    };
 
-      var recalibrate_instructions = {
-        type: jsPsychHtmlButtonResponse,
-        stimulus: `
+    var recalibrate_instructions = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
           <p>The accuracy of the calibration is a little lower than we'd like.</p>
           <p>Let's try calibrating one more time.</p>
           <p>On the next screen, look at the dots and click on them.<p>
         `,
-        choices: ['OK'],
-      }
-
-      var recalibrate = {
-        timeline: [recalibrate_instructions, calibration, validation_instructions, validation],
-        conditional_function: function(){
-          var validation_data = jsPsych.data.get().filter({task: 'validate'}).values()[0];
-          return validation_data.percent_in_roi.some(function(x){
-            var minimum_percent_acceptable = 50;
-            return x < minimum_percent_acceptable;
-          });
-        },
-        data: {
-          phase: 'recalibration'
-        }
-      }
-
-      var calibration_done = {
-        type: jsPsychHtmlButtonResponse,
-        stimulus: `
-          <p>Great, we're done with calibration!</p>
-        `,
-        choices: ['OK']
-      }
-
-
-  // Load JS file
-  $.getJSON('shuffled_stimuli.js', function(data) {
-  
-  // Get the data from the JS file
-  const items = data.items;
-  
-  // Split the comma-separated string in one of the columns
-  items.forEach(item => {
-    item.stimuli = item.stimuli.split(',');
-  });
-});
-  
-  // Convert JS to array
-  var names = []
-  for(x in shuffled_stimuli)
-  names.push(shuffled_stimuli[x].stimuli);
-
-  var CR = []
-  for(x in shuffled_stimuli)
-  CR.push(shuffled_stimuli[x].correct_answer)
-
-  // split the comma-separated words
-  myArray = names.map(str => str.split(","));
- 
-
-  // define a function to shuffle the array
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
-
- 
-var correct_response;
-  // Define a jsPsych trial to display the words
-  var wordDisplayTrial = {
-    type: jsPsychHtmlKeyboardResponse,
-    stimulus: function() {
-      const quadrantSize = window.innerWidth / 4;
-      const centerX = window.innerWidth / 3;
-      const centerY = window.innerHeight / 3;
-      const quadrants = [
-        { x: 0, y: 0 },
-        { x: quadrantSize, y: 0 },
-        { x: 0, y: quadrantSize },
-        { x: quadrantSize, y: quadrantSize },
-      ];
-      const firstRow = myArray.shift();
-      shuffleArray(firstRow);
-
-      let html = '';
-      for (let i = 0; i < 4; i++) {
-        html += `<div class="word" style="position:absolute; top:${centerY + quadrants[i].y}px; left:${centerX + quadrants[i].x}px;">${firstRow[i]}</div>`;
-      }
-      return html;
-    },
-    choices: ['z', 'm'],
-    trial_duration: null,
-    extensions: [
-            {
-                type: jsPsychExtensionWebgazer,
-                params: {targets: ['#jspsych-image0keyboard-response-stimulus']}
-            }
-        ],
-    data:{
-            task: 'VST',
-        },
-        on_finish: function(data) {
-          data.correct = jsPsych.pluginAPI.compareKeys(data.response, correct_response);
-        },
-        on_start: function(data){
-          correct_response = CR.shift();
-        }
+      choices: ["OK"],
     };
 
-var fixation = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: '<div style="font-size:60px;">+</div>',
-  choices: "NO_KEYS",
-  trial_duration: 700,
-};
+    var recalibrate = {
+      timeline: [
+        recalibrate_instructions,
+        calibration,
+        validation_instructions,
+        validation,
+      ],
+      conditional_function: function () {
+        var validation_data = jsPsych.data
+          .get()
+          .filter({ task: "validate" })
+          .values()[0];
+        return validation_data.percent_in_roi.some(function (x) {
+          var minimum_percent_acceptable = 50;
+          return x < minimum_percent_acceptable;
+        });
+      },
+      data: {
+        phase: "recalibration",
+      },
+    };
 
-var blank  = {
-  type: jsPsychHtmlKeyboardResponse,
-  stimulus: '',
-  choices: "NO_KEYS",
-  trial_duration: 1000,
-};
+    var calibration_done = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: `
+          <p>Great, we're done with calibration!</p>
+        `,
+      choices: ["OK"],
+    };
 
-var outcome = {
-        type: jsPsychHtmlKeyboardResponse,
-        stimulus: function (data) {
-            if (jsPsych.data.get().last(1).trials[0].correct == true) {
-                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">CORRECT</p>'
-            }
-            else {
-                return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">INCORRECT</p>'
-            }
-        },
-        trial_duration: 1000,
-        extensions: [
-            {
-                type: jsPsychExtensionWebgazer,
-                params: {targets: ['#jspsych-image0keyboard-response-stimulus']}
-            }
-        ],
-        data: {
-            task: "feedback"
+    // Load JS file
+    $.getJSON("shuffled_stimuli.js", function (data) {
+      // Get the data from the JS file
+      const items = data.items;
+
+      // Split the comma-separated string in one of the columns
+      items.forEach((item) => {
+        item.stimuli = item.stimuli.split(",");
+      });
+    });
+
+    // Convert JS to array
+    var names = [];
+    for (x in shuffled_stimuli) names.push(shuffled_stimuli[x].stimuli);
+
+    var CR = [];
+    for (x in shuffled_stimuli) CR.push(shuffled_stimuli[x].correct_answer);
+
+    // split the comma-separated words
+    myArray = names.map((str) => str.split(","));
+
+    // define a function to shuffle the array
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    }
+
+    var correct_response;
+    // Define a jsPsych trial to display the words
+    var wordDisplayTrial = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: function () {
+        const quadrantSize = window.innerWidth / 4;
+        const centerX = window.innerWidth / 3;
+        const centerY = window.innerHeight / 3;
+        const quadrants = [
+          { x: 0, y: 0 },
+          { x: quadrantSize, y: 0 },
+          { x: 0, y: quadrantSize },
+          { x: quadrantSize, y: quadrantSize },
+        ];
+        const firstRow = myArray.shift();
+        shuffleArray(firstRow);
+
+        let html = "";
+        for (let i = 0; i < 4; i++) {
+          html += `<div class="word" style="position:absolute; top:${
+            centerY + quadrants[i].y
+          }px; left:${centerX + quadrants[i].x}px;">${firstRow[i]}</div>`;
         }
+        return html;
+      },
+      choices: ["z", "m"],
+      trial_duration: null,
+      extensions: [
+        {
+          type: jsPsychExtensionWebgazer,
+          params: { targets: ["#jspsych-image0keyboard-response-stimulus"] },
+        },
+      ],
+      data: {
+        task: "VST",
+      },
+      on_finish: function (data) {
+        var isFullscreen = document.fullscreenElement !== null;
+        data.fullscreen = isFullscreen;
+        data.correct = jsPsych.pluginAPI.compareKeys(
+          data.response,
+          correct_response
+        );
+
+        console.log(data);
+      },
+      on_start: function (data) {
+        correct_response = CR.shift();
+      },
+    };
+
+    var fixation = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: '<div style="font-size:60px;">+</div>',
+      choices: "NO_KEYS",
+      trial_duration: 700,
+    };
+
+    var blank = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: "",
+      choices: "NO_KEYS",
+      trial_duration: 1000,
+    };
+
+    var outcome = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: function (data) {
+        if (jsPsych.data.get().last(1).trials[0].correct == true) {
+          return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">CORRECT</p>';
+        } else {
+          return '<p class="outcome_qm" style="font-size:30px;font-weight:bold;">INCORRECT</p>';
+        }
+      },
+      trial_duration: 1000,
+      extensions: [
+        {
+          type: jsPsychExtensionWebgazer,
+          params: { targets: ["#jspsych-image0keyboard-response-stimulus"] },
+        },
+      ],
+      data: {
+        task: "feedback",
+      },
     };
 
     /* create the end screen */
     var end = {
-        type: jsPsychHtmlKeyboardResponse,
-        stimulus: `<p>You're done! A .csv file containing your data should be automatically downloading right now.
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: `<p>You're done! A .csv file containing your data should be automatically downloading right now.
         Check your default downloads location to find it. Once you've found it you can close the experiment.</p>`,
-        on_load: function () {
-          jsPsych.data.get().localSave('csv','VST-data.csv');
-        }
+      on_load: function () {
+        jsPsych.data.get().localSave("csv", "VST-data.csv");
+      },
     };
 
-// Define a jsPsych timeline and add the word display trial
-var task_procedure = {
-  timeline: [fixation, wordDisplayTrial, blank],
-  repetitions: 120,
-          data: {
-            phase: 'test'
+    // Define a jsPsych timeline and add the word display trial
+    var task_procedure = {
+      timeline: [fixation, wordDisplayTrial, blank],
+      repetitions: 120,
+      data: {
+        phase: "test",
+      },
+      extensions: [
+        {
+          type: jsPsychExtensionWebgazer,
+          params: { targets: ["#jspsych-image0keyboard-response-stimulus"] },
         },
-        extensions: [
-            {
-                type: jsPsychExtensionWebgazer,
-                params: {targets: ['#jspsych-image0keyboard-response-stimulus']}
-            }
-        ],
-}
+      ],
+    };
 
-// Define a jsPsych timeline and add the word display trial
-var task_practice = {
-  timeline: [fixation, wordDisplayTrial, outcome],
-  repetitions: 6,
-          data: {
-            phase: 'practice'
+    // Define a jsPsych timeline and add the word display trial
+    var task_practice = {
+      timeline: [fixation, wordDisplayTrial, outcome],
+      repetitions: 6,
+      data: {
+        phase: "practice",
+      },
+      extensions: [
+        {
+          type: jsPsychExtensionWebgazer,
+          params: { targets: ["#jspsych-image0keyboard-response-stimulus"] },
         },
-        extensions: [
-            {
-                type: jsPsychExtensionWebgazer,
-                params: {targets: ['#jspsych-image0keyboard-response-stimulus']}
-            }
-        ],
-}
+      ],
+    };
 
-var cursor_off = {
-    type: jsPsychCallFunction,
-    func: function() {
-        document.body.style.cursor= "none";
-    }
-}
+    var cursor_off = {
+      type: jsPsychCallFunction,
+      func: function () {
+        document.body.style.cursor = "none";
+      },
+    };
 
-var cursor_on = {
-    type: jsPsychCallFunction,
-    func: function() {
-        document.body.style.cursor= "auto";
-    }
-}
+    var cursor_on = {
+      type: jsPsychCallFunction,
+      func: function () {
+        document.body.style.cursor = "auto";
+      },
+    };
 
+    var likert_scale_IUS = [
+      "Not at all characteristic of me",
+      "A little characteristic of me",
+      "Somewhat characteristic of me",
+      "Very characteristic of me",
+      "Entirely characteristic of me",
+    ];
 
-// GENERAL SETUP
-timeline.push(general_instructions);
-timeline.push(info_sheet);
-timeline.push(consent_form);
-timeline.push(consent);
-timeline.push(enter_fullscreen); 
-timeline.push(screen_setting);
+    var IUS_survey = {
+      type: jsPsychSurveyLikert,
+      preamble:
+        "<h1>Questionnaire 1</h1><div><b>You will find below a series of statements which describe how people may react to the uncertainties of life. Please use the scale below to describe to what extent each item is characteristic of you.</b></div>",
+      questions: [
+        {
+          prompt: "<b>Unforeseen events upset me greatly.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt:
+            "<b>It frustrates me not having all the information I need.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt: "<b>Uncertainty keeps me from living a full life.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt:
+            "<b>One should always look ahead so as to avoid surprises.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt:
+            "<b>A small unforeseen event can spoil everything, even with the best of planning.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt: "<b>When it's time to act, uncertainty paralyses me.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt: "<b>When I am uncertain I can't function very well.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt:
+            "<b>I always want to know what the future has in store for me.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt: "<b>I can't stand being taken by surprise.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt: "<b>The smallest doubt can stop me from acting.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt: "<b>Please select 'A little characteristic of me'.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt: "<b>I should be able to organize everything in advance.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+        {
+          prompt: "<b>I must get away from all uncertain situations.</b>",
+          labels: likert_scale_IUS,
+          required: true,
+        },
+      ],
+      randomize_question_order: false,
+    };
 
-// EYE TRACKER
-timeline.push(camera_instructions);
-timeline.push(init_camera);
-timeline.push(calibration_instructions);
-timeline.push(calibration);
-timeline.push(validation_instructions);
-timeline.push(validation);
-timeline.push(recalibrate);
-timeline.push(calibration_done);
+    var likert_scale_third_questionnaire = [
+      "Does not apply at all",
+      "Applies a bit",
+      "Applies somewhat",
+      "Applies mostly",
+      "Applies completely",
+    ];
 
-// EXPERIMENT
-timeline.push(enter_fullscreen); 
-timeline.push(task_instructions);
-timeline.push(cursor_off);
-timeline.push(practice_instructions);
-timeline.push(task_practice);
-timeline.push(practice_end);
-timeline.push(task_procedure);
-timeline.push(task_end);
-timeline.push(cursor_on);
+    var IBSS_survey = {
+      type: jsPsychSurveyLikert,
+      preamble:
+        "<h1>Questionnaire 3</h1><div>The following statements may apply more or less to you. To what extent do you think each statement applies to you personally?</div>",
+      questions: [
+        {
+          prompt:
+            "<b>Sometimes I do things impulsively that I should not do</b>",
+          labels: likert_scale_third_questionnaire,
+          required: true,
+        },
+        {
+          prompt:
+            "<b>I sometimes do things to cheer myself up that I later regret.</b>",
+          labels: likert_scale_third_questionnaire,
+          required: true,
+        },
+        {
+          prompt: "<b>I usually think carefully before I act</b>",
+          labels: likert_scale_third_questionnaire,
+          required: true,
+        },
+        {
+          prompt:
+            "<b>I usually consider things carefully and logically before I make up my mind</b>",
+          labels: likert_scale_third_questionnaire,
+          required: true,
+        },
+        {
+          prompt: "<b>I always bring to an end what I have started</b>",
+          labels: likert_scale_third_questionnaire,
+          required: true,
+        },
+        {
+          prompt:
+            "<b>I plan my schedule so that I get everything done on time</b>",
+          labels: likert_scale_third_questionnaire,
+          required: true,
+        },
+        {
+          prompt: "<b>I am willing to take risks</b>",
+          labels: likert_scale_third_questionnaire,
+          required: true,
+        },
+        {
+          prompt: "<b>I am happy to take chances</b>",
+          labels: likert_scale_third_questionnaire,
+          required: true,
+        },
+      ],
+      randomize_question_order: false,
+    };
 
-//QUESTIONNAIRES
-timeline.push(enter_fullscreen); 
-timeline.push(demographics_text);
-timeline.push(demographics_choice);
-timeline.push(IUS_survey);
-timeline.push(STAIT_survey);
-timeline.push(BIS_survey);
-timeline.push(exit_fullscreen);
-timeline.push(end);
+    // GENERAL SETUP
+    timeline.push(general_instructions);
+    timeline.push(info_sheet);
+    timeline.push(consent_form);
+    timeline.push(consent);
+    timeline.push(enter_fullscreen);
+    timeline.push(screen_setting);
 
-jsPsych.run(timeline);
+    // EYE TRACKER
+    timeline.push(camera_instructions);
+    timeline.push(init_camera);
+    timeline.push(calibration_instructions);
+    timeline.push(calibration);
+    timeline.push(validation_instructions);
+    timeline.push(validation);
+    timeline.push(recalibrate);
+    timeline.push(calibration_done);
 
-</script>
+    // EXPERIMENT
+    timeline.push(enter_fullscreen);
+    timeline.push(task_instructions);
+    timeline.push(cursor_off);
+    timeline.push(practice_instructions);
+    timeline.push(task_practice);
+    timeline.push(practice_end);
+    timeline.push(task_procedure);
+    timeline.push(task_end);
+    timeline.push(cursor_on);
+
+    //QUESTIONNAIRES
+    timeline.push(enter_fullscreen);
+    timeline.push(demographics_text);
+    timeline.push(demographics_choice);
+    timeline.push(IUS_survey);
+    timeline.push(STAIT_survey);
+    timeline.push(BIS_survey);
+    timeline.push(exit_fullscreen);
+    timeline.push(end);
+
+    jsPsych.run(timeline);
+  </script>
 </html>
-
